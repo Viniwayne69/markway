@@ -1,3 +1,5 @@
+import { SoundToggle } from "./SoundToggle";
+
 const navItems = [
   { label: "Início", href: "#" },
   { label: "Método", href: "#metodo" },
@@ -25,19 +27,23 @@ export function HeroSection() {
           MARKWAY
         </a>
 
-        <nav className="desktop-nav" aria-label="Navegação principal">
-          {navItems.map((item) => (
-            <a href={item.href} key={item.label}>
-              {item.label}
-            </a>
-          ))}
-        </nav>
+        <div className="header-right">
+          <nav className="desktop-nav" aria-label="Navegação principal">
+            {navItems.map((item) => (
+              <a href={item.href} key={item.label}>
+                {item.label}
+              </a>
+            ))}
+          </nav>
 
-        <button className="mobile-menu" type="button" aria-label="Abrir menu">
-          <span />
-          <span />
-          <span />
-        </button>
+          <SoundToggle />
+
+          <button className="mobile-menu" type="button" aria-label="Abrir menu">
+            <span />
+            <span />
+            <span />
+          </button>
+        </div>
       </header>
 
       <div className="hero-copy">
