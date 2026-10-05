@@ -1,4 +1,8 @@
-const navItems = ["Início", "Método", "Clube"];
+const navItems = [
+  { label: "Início", href: "#" },
+  { label: "Método", href: "#metodo" },
+  { label: "Clube", href: "#" }
+];
 
 function MarkedWord() {
   return (
@@ -23,8 +27,8 @@ export function HeroSection() {
 
         <nav className="desktop-nav" aria-label="Navegação principal">
           {navItems.map((item) => (
-            <a href="#" key={item}>
-              {item}
+            <a href={item.href} key={item.label}>
+              {item.label}
             </a>
           ))}
         </nav>
