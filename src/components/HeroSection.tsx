@@ -1,7 +1,5 @@
-import { SoundToggle } from "./SoundToggle";
-
 const navItems = [
-  { label: "Início", href: "#" },
+  { label: "Início", href: "#inicio" },
   { label: "Método", href: "#metodo" },
   { label: "Clube", href: "#" }
 ];
@@ -19,7 +17,7 @@ function MarkedWord() {
 
 export function HeroSection() {
   return (
-    <section className="hero-section" aria-labelledby="hero-title">
+    <section id="inicio" className="hero-section" aria-labelledby="hero-title">
       <div className="hero-light" aria-hidden="true" />
 
       <header className="hero-header" aria-label="Cabeçalho">
@@ -35,8 +33,6 @@ export function HeroSection() {
               </a>
             ))}
           </nav>
-
-          <SoundToggle />
 
           <button className="mobile-menu" type="button" aria-label="Abrir menu">
             <span />
@@ -71,6 +67,10 @@ export function HeroSection() {
         </a>
         <p className="hero-note">Leva menos de 2 minutos</p>
       </div>
+
+      <a className="scroll-hint" href="#antes-e-depois" aria-label="Ver mais">
+        <span />
+      </a>
     </section>
   );
 }

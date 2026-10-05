@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react";
 import { beforeItems, afterItems } from "@/data/transformation";
 
 type ComparisonListProps = {
@@ -11,8 +12,8 @@ function ComparisonList({ title, tone, items }: ComparisonListProps) {
     <article className={`comparison-list ${tone}`}>
       <h3>{title}</h3>
       <ul>
-        {items.map((item) => (
-          <li key={item}>
+        {items.map((item, index) => (
+          <li key={item} style={{ "--i": index } as CSSProperties}>
             <span aria-hidden="true" className="status-icon" />
             <span>{item}</span>
           </li>
@@ -31,7 +32,7 @@ function ComparisonTable() {
         <span className="pair-cell after" role="columnheader">Depois</span>
       </div>
       {beforeItems.map((item, index) => (
-        <div className="pair-row" role="row" key={item}>
+        <div className="pair-row" role="row" key={item} data-reveal style={{ "--d": `${index * 90}ms` } as CSSProperties}>
           <span className="pair-cell before" role="cell">
             <span aria-hidden="true" className="pair-icon" />
             <span>{item}</span>
@@ -49,23 +50,28 @@ function ComparisonTable() {
 
 export function TransformationSection() {
   return (
-    <section className="transformation-section" aria-labelledby="transformation-title">
+    <section id="antes-e-depois" className="transformation-section" aria-labelledby="transformation-title">
       <div className="transformation-content">
-        <p className="section-kicker">MÉTODO RENASCENTISTA</p>
+        <p className="section-kicker" data-reveal>MÉTODO RENASCENTISTA</p>
 
-        <h2 id="transformation-title" className="transformation-title">
+        <h2 id="transformation-title" className="transformation-title" data-reveal data-ring style={{ "--d": "120ms" } as CSSProperties}>
           <span className="title-before">ANTES</span>
           <span className="title-and">E</span>
-          <span className="title-after">DEPOIS</span>
+          <span className="title-after marked-word">
+            DEPOIS
+            <svg viewBox="0 0 230 68" aria-hidden="true" focusable="false">
+              <path pathLength="1" d="M16 42C27 13 76 5 132 10C190 15 223 31 216 46C209 61 151 62 96 58C43 54 6 55 16 42Z" />
+            </svg>
+          </span>
         </h2>
 
         <ComparisonTable />
 
-        <div className="transformation-grid" aria-label="Comparativo antes e depois">
+        <div className="transformation-grid" data-reveal aria-label="Comparativo antes e depois">
           <ComparisonList title="Antes" tone="before" items={beforeItems} />
 
           <div className="shift-mark" aria-hidden="true">
-            <span>→</span>
+            <span className="arrow-line" />
           </div>
 
           <ComparisonList title="Depois" tone="after" items={afterItems} />
