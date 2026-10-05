@@ -8,8 +8,8 @@ function MarkedWord() {
   return (
     <span className="marked-word">
       DESEJADAS
-      <svg viewBox="0 0 230 68" aria-hidden="true" focusable="false">
-        <path pathLength="1" d="M16 42C27 13 76 5 132 10C190 15 223 31 216 46C209 61 151 62 96 58C43 54 6 55 16 42Z" />
+      <svg viewBox="0 0 230 16" aria-hidden="true" focusable="false">
+        <path pathLength="1" d="M3 11C32 5 64 14 104 9C148 4 190 13 227 7" />
       </svg>
     </span>
   );
@@ -68,9 +68,6 @@ export function HeroSection() {
         <p className="hero-note">Leva menos de 2 minutos</p>
       </div>
 
-      <a className="scroll-hint" href="#antes-e-depois" aria-label="Ver mais">
-        <span />
-      </a>
     </section>
   );
 }

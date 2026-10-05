@@ -30,12 +30,15 @@ export function ScrollEffects() {
     // linha de progressão do Método
     const rows = Array.from(document.querySelectorAll<HTMLElement>(".method-row"));
     const update = () => {
-      const mark = window.innerHeight * 0.62;
-      const lit = rows.map((row) => {
+      const vh = window.innerHeight;
+      const atBottom = window.scrollY + vh >= document.documentElement.scrollHeight - 8;
+      const lit = rows.map((row, i) => {
         const n = row.querySelector<HTMLElement>(".method-numeral");
         if (!n) return false;
+        // a última etapa acende um pouco antes, para não depender do fim da página
+        const mark = vh * (i === rows.length - 1 ? 0.85 : 0.68);
         const r = n.getBoundingClientRect();
-        return r.top + r.height / 2 <= mark;
+        return atBottom || r.top + r.height / 2 <= mark;
       });
       rows.forEach((row, i) => {
         row.classList.toggle("is-lit", lit[i]);
