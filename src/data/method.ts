@@ -1,18 +1,22 @@
 export const methodSteps = [
   {
+    numeral: "I",
     title: "Diagnóstico",
-    text: "Estudamos o negócio, o público e o mercado para encontrar onde a marca perde valor hoje."
+    text: "Leitura do negócio, do público e do mercado."
   },
   {
+    numeral: "II",
     title: "Posicionamento",
-    text: "Definimos o que a marca promete, para quem e por que ela é diferente das demais."
+    text: "O que a marca promete e por que é diferente."
   },
   {
+    numeral: "III",
     title: "Identidade",
-    text: "Criamos a imagem e a comunicação que fazem a marca ser reconhecida e lembrada."
+    text: "Imagem e comunicação que tornam a marca reconhecível."
   },
   {
+    numeral: "IV",
     title: "Aceleração",
-    text: "Colocamos a marca no mercado para atrair os clientes certos e vender com mais autoridade."
+    text: "Presença no mercado para atrair os clientes certos."
   }
 ];
