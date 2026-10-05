@@ -11,7 +11,7 @@ export function MethodSection() {
           <span className="marked-word">
             desejada
             <svg viewBox="0 0 230 68" aria-hidden="true" focusable="false">
-              <path d="M16 42C27 13 76 5 132 10C190 15 223 31 216 46C209 61 151 62 96 58C43 54 6 55 16 42Z" />
+              <path pathLength="1" d="M16 42C27 13 76 5 132 10C190 15 223 31 216 46C209 61 151 62 96 58C43 54 6 55 16 42Z" />
             </svg>
           </span>
         </h2>
