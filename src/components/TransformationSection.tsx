@@ -22,6 +22,31 @@ function ComparisonList({ title, tone, items }: ComparisonListProps) {
   );
 }
 
+function ComparisonTable() {
+  return (
+    <div className="comparison-table" role="table" aria-label="Comparativo antes e depois">
+      <div className="pair-row pair-head" role="row">
+        <span className="pair-cell before" role="columnheader">Antes</span>
+        <span className="pair-gap" aria-hidden="true" />
+        <span className="pair-cell after" role="columnheader">Depois</span>
+      </div>
+      {beforeItems.map((item, index) => (
+        <div className="pair-row" role="row" key={item}>
+          <span className="pair-cell before" role="cell">
+            <span aria-hidden="true" className="pair-icon" />
+            <span>{item}</span>
+          </span>
+          <span className="pair-gap" aria-hidden="true">→</span>
+          <span className="pair-cell after" role="cell">
+            <span aria-hidden="true" className="pair-icon" />
+            <span>{afterItems[index]}</span>
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export function TransformationSection() {
   return (
     <section className="transformation-section" aria-labelledby="transformation-title">
@@ -33,6 +58,8 @@ export function TransformationSection() {
           <span className="title-and">E</span>
           <span className="title-after">DEPOIS</span>
         </h2>
+
+        <ComparisonTable />
 
         <div className="transformation-grid" aria-label="Comparativo antes e depois">
           <ComparisonList title="Antes" tone="before" items={beforeItems} />
