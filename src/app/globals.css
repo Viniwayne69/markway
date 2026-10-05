@@ -167,7 +167,7 @@ button {
   margin: 0;
   color: var(--parchment);
   font-family: var(--font-cinzel), Georgia, serif;
-  font-size: clamp(2rem, min(calc(max(100vw, 177.78vh) * 0.029), 6.6vw), 5.2rem);
+  font-size: clamp(2rem, min(calc(max(100vw, 177.78vh) * 0.034), 6.8vw), 5.8rem);
   font-weight: 400;
   line-height: 1.18;
   letter-spacing: 0;
@@ -209,10 +209,10 @@ button {
 }
 
 .hero-lead {
-  max-width: 34rem;
-  margin: 1.5rem 0 0;
-  color: rgba(239, 228, 204, 0.84);
-  font-size: clamp(1.15rem, 1.5vw, 1.4rem);
+  max-width: 42rem;
+  margin: 1.6rem 0 0;
+  color: rgba(239, 228, 204, 0.86);
+  font-size: clamp(1.2rem, 1.85vw, 1.8rem);
   line-height: 1.45;
   text-shadow: 0 0.1rem 0.7rem rgba(0, 0, 0, 0.7);
 }
@@ -220,7 +220,7 @@ button {
 .hero-note {
   margin: 1rem 0 0;
   color: rgba(239, 228, 204, 0.62);
-  font-size: 0.98rem;
+  font-size: 1.1rem;
   letter-spacing: 0.06em;
   text-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.6);
 }
@@ -285,10 +285,10 @@ button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 13rem;
-  min-height: 3.2rem;
-  margin-top: 1.9rem;
-  padding: 0.85rem 2.2rem;
+  min-width: 15rem;
+  min-height: 3.7rem;
+  margin-top: 2.1rem;
+  padding: 0.95rem 2.6rem;
   border: 1px solid rgba(239, 228, 204, 0.18);
   border-radius: 999px;
   background: linear-gradient(180deg, #d9bb6a, var(--gold) 55%, #b78e45);
@@ -296,7 +296,7 @@ button {
     0 0.6rem 1.5rem rgba(8, 5, 4, 0.34),
     inset 0 1px 0 rgba(255, 244, 210, 0.45);
   color: var(--shadow);
-  font-size: 1.12rem;
+  font-size: 1.3rem;
   font-weight: 600;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
