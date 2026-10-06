@@ -106,11 +106,12 @@ button {
   align-items: center;
   justify-content: center;
   min-width: 9.2rem;
-  color: var(--gold);
-  font-family: var(--font-cinzel), Georgia, serif;
-  font-size: 1.7rem;
-  font-weight: 500;
-  letter-spacing: 0;
+  color: var(--parchment);
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.95rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-indent: 0.16em;
 }
 
 .header-right {
@@ -694,7 +695,7 @@ button {
   }
 
   .brand-mark {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     min-width: 7rem;
   }
 
@@ -759,7 +760,8 @@ button {
     grid-column: 1;
     justify-self: start;
     min-width: 6rem;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
+    text-indent: 0;
   }
 
   .hero-copy {
@@ -1170,10 +1172,11 @@ button {
 }
 
 .sticky-brand {
-  color: var(--gold);
-  font-family: var(--font-cinzel), Georgia, serif;
-  font-size: 1.3rem;
-  font-weight: 500;
+  color: var(--parchment);
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
 }
 
 .sticky-nav {
@@ -1214,7 +1217,7 @@ button {
   }
 
   .sticky-brand {
-    font-size: 1.15rem;
+    font-size: 1.3rem;
   }
 }
 
