@@ -22,7 +22,7 @@ export function HeroSection() {
 
       <header className="hero-header" aria-label="Cabeçalho">
         <a className="brand-mark" href="#" aria-label="SPEARE">
-          <img src="/images/speare-wordmark.png" alt="SPEARE" width={745} height={169} />
+          <img src="/images/speare-wordmark.png" alt="SPEARE" width={719} height={138} />
         </a>
 
         <div className="header-right">

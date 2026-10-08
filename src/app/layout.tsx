@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Alegreya_Sans } from "next/font/google";
+import { Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 
-const brandFont = Alegreya_Sans({
+const brandFont = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["400", "500", "700", "800"],
+  weight: ["500", "600", "700"],
   variable: "--font-brand",
   display: "swap"
 });

@@ -25,7 +25,7 @@ body {
   margin: 0;
   background: var(--shadow);
   color: var(--parchment);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
 }
 
 a {
@@ -110,7 +110,7 @@ button {
 .brand-mark img {
   display: block;
   width: auto;
-  height: 2rem;
+  height: 1.8rem;
 }
 
 .header-right {
@@ -127,8 +127,8 @@ button {
   gap: 2.2rem;
   color: rgba(226, 212, 180, 0.95);
   text-shadow: 0 1px 0.5rem rgba(20, 10, 4, 0.75);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
-  font-size: 0.95rem;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-size: 1.08rem;
   font-weight: 500;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -172,11 +172,11 @@ button {
   align-items: center;
   margin: 0;
   color: var(--parchment);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   font-size: clamp(2rem, min(calc(max(100vw, 177.78vh) * 0.034), 6.8vw), 5.8rem);
   font-weight: 700;
   line-height: 1.18;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
   text-shadow: 0 0.16rem 0.7rem rgba(0, 0, 0, 0.72);
 }
 
@@ -218,7 +218,7 @@ button {
   max-width: 42rem;
   margin: 1.6rem 0 0;
   color: rgba(239, 228, 204, 0.86);
-  font-size: clamp(1.15rem, 1.6vw, 1.5rem);
+  font-size: clamp(1.3rem, 1.8vw, 1.7rem);
   line-height: 1.5;
   text-shadow: 0 0.1rem 0.7rem rgba(0, 0, 0, 0.7);
 }
@@ -226,7 +226,7 @@ button {
 .hero-note {
   margin: 1rem 0 0;
   color: rgba(239, 228, 204, 0.88);
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   letter-spacing: 0.05em;
   text-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.6);
 }
@@ -302,7 +302,7 @@ button {
     0 0.6rem 1.5rem rgba(8, 5, 4, 0.34),
     inset 0 1px 0 rgba(255, 244, 210, 0.45);
   color: var(--shadow);
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.02em;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -363,7 +363,7 @@ button {
   gap: 1.5cqw;
   margin: 0;
   color: var(--gold-deep);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   font-size: 1cqw;
   font-weight: 500;
   letter-spacing: 0.22em;
@@ -385,11 +385,11 @@ button {
   justify-content: center;
   gap: 1.5cqw;
   margin: 1.5cqw 0 0;
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   font-size: 5.4cqw;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
 }
 
 .transformation-title .marked-word svg {
@@ -420,7 +420,7 @@ button {
   border: 1px solid rgba(168, 116, 44, 0.5);
   border-radius: 1.6cqw;
   background: rgba(255, 250, 238, 0.5);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1), box-shadow 0.9s ease, border-color 0.9s ease, background 0.9s ease;
 }
 
@@ -445,7 +445,7 @@ button {
   margin: 0 0 1.1cqw;
   font-size: 1.75cqw;
   font-weight: 700;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.005em;
   text-transform: uppercase;
 }
 
@@ -471,8 +471,8 @@ button {
   align-items: center;
   gap: 1.2cqw;
   color: #2a1f18;
-  font-size: 1.3cqw;
-  font-weight: 400;
+  font-size: 1.45cqw;
+  font-weight: 500;
   line-height: 1.2;
 }
 
@@ -584,7 +584,7 @@ button {
     border-radius: 1rem;
     background: rgba(255, 252, 244, 0.7);
     box-shadow: 0 0.9rem 2rem rgba(74, 52, 28, 0.12);
-    font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+    font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   }
 
   .pair-row {
@@ -605,8 +605,8 @@ button {
     min-height: 3.5rem;
     padding: 0.7rem 0.85rem;
     color: #2a1f18;
-    font-size: 0.84rem;
-    line-height: 1.25;
+    font-size: 0.95rem;
+    line-height: 1.2;
     text-align: left;
   }
 
@@ -621,9 +621,9 @@ button {
   .pair-head .pair-cell {
     min-height: 0;
     padding-block: 0.8rem;
-    font-size: 0.8rem;
+    font-size: 0.88rem;
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
   }
 
@@ -695,7 +695,7 @@ button {
   }
 
   .brand-mark img {
-    height: 1.65rem;
+    height: 1.55rem;
   }
 
   .desktop-nav {
@@ -761,7 +761,7 @@ button {
   }
 
   .brand-mark img {
-    height: 1.45rem;
+    height: 1.3rem;
   }
 
   .hero-copy {
@@ -791,19 +791,19 @@ button {
 
   .hero-lead {
     margin-top: 1.2rem;
-    font-size: 1.1rem;
+    font-size: 1.22rem;
   }
 
   .primary-cta {
     min-width: 12rem;
     min-height: 3rem;
     margin-top: 1.5rem;
-    font-size: 1.05rem;
+    font-size: 1.15rem;
   }
 
   .hero-note {
     margin-top: 0.8rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
 
@@ -861,7 +861,7 @@ button {
 .method-kicker {
   margin: 0;
   color: var(--gold);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   font-size: 0.72rem;
   font-weight: 500;
   letter-spacing: 0.28em;
@@ -872,7 +872,7 @@ button {
   max-width: 27ch;
   margin: 1.4rem auto 0;
   color: var(--parchment);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   font-size: clamp(1.9rem, 4vw, 3.3rem);
   font-weight: 700;
   line-height: 1.25;
@@ -929,8 +929,8 @@ button {
   border-radius: 50%;
   background: #2a1f18;
   color: var(--gold);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
-  font-size: 1.05rem;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-size: 1.18rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   transition: background 0.6s ease, color 0.6s ease, border-color 0.6s ease, box-shadow 0.6s ease;
@@ -973,7 +973,7 @@ button {
 .method-row h3 {
   margin: 0;
   color: var(--parchment);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   font-size: clamp(1.3rem, 2.3vw, 1.8rem);
   font-weight: 700;
   line-height: var(--circle);
@@ -994,7 +994,7 @@ button {
 .method-row p {
   margin: 0;
   color: rgba(246, 237, 216, 0.96);
-  font-size: clamp(1.1rem, 1.55vw, 1.3rem);
+  font-size: clamp(1.2rem, 1.7vw, 1.45rem);
   font-weight: 500;
   line-height: 1.4;
 }
@@ -1002,14 +1002,14 @@ button {
 .method-row .method-deliver {
   margin-top: 0.65rem;
   color: rgba(239, 228, 204, 0.82);
-  font-size: clamp(1rem, 1.35vw, 1.15rem);
+  font-size: clamp(1.1rem, 1.5vw, 1.3rem);
   font-weight: 500;
 }
 
 .method-deliver span {
   margin-right: 0.35rem;
   color: var(--gold);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
   font-size: 0.78em;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -1180,15 +1180,15 @@ button {
 .sticky-brand img {
   display: block;
   width: auto;
-  height: 1.4rem;
+  height: 1.2rem;
 }
 
 .sticky-nav {
   display: flex;
   gap: 2.2rem;
   color: rgba(226, 212, 180, 0.95);
-  font-family: var(--font-brand), Candara, Optima, "Segoe UI", sans-serif;
-  font-size: 0.9rem;
+  font-family: var(--font-brand), "Cormorant Garamond", Georgia, "Times New Roman", serif;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -1221,7 +1221,7 @@ button {
   }
 
   .sticky-brand img {
-    height: 1.2rem;
+    height: 1.05rem;
   }
 }
 
