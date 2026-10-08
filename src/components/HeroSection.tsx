@@ -21,8 +21,8 @@ export function HeroSection() {
       <div className="hero-light" aria-hidden="true" />
 
       <header className="hero-header" aria-label="Cabeçalho">
-        <a className="brand-mark" href="#" aria-label="MARKWAY">
-          MARKWAY
+        <a className="brand-mark" href="#" aria-label="SPEARE">
+          <img src="/images/speare-wordmark.png" alt="SPEARE" width={745} height={169} />
         </a>
 
         <div className="header-right">

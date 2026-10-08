@@ -24,8 +24,8 @@ const figtree = Figtree({
 });
 
 export const metadata: Metadata = {
-  title: "MARKWAY",
-  description: "Landing page premium da MARKWAY"
+  title: "SPEARE",
+  description: "Landing page premium da SPEARE"
 };
 
 type RootLayoutProps = {

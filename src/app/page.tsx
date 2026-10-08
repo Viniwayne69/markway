@@ -6,7 +6,7 @@ import { StickyBar } from "@/components/StickyBar";
 
 export default function Home() {
   return (
-    <main className="site-shell" aria-label="MARKWAY">
+    <main className="site-shell" aria-label="SPEARE">
       <StickyBar />
       <ScrollEffects />
       <HeroSection />

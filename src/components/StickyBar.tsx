@@ -20,8 +20,8 @@ export function StickyBar() {
 
   return (
     <div className={`sticky-bar${visible ? " is-visible" : ""}`}>
-      <a className="sticky-brand" href="#inicio" aria-label="MARKWAY">
-        MARKWAY
+      <a className="sticky-brand" href="#inicio" aria-label="SPEARE">
+        <img src="/images/speare-wordmark.png" alt="SPEARE" width={745} height={169} />
       </a>
       <nav className="sticky-nav" aria-label="Navegação fixa">
         {links.map((item) => (
