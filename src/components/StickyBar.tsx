@@ -4,8 +4,9 @@ import { useEffect, useState } from "react";
 
 const links = [
   { label: "Início", href: "#inicio" },
+  { label: "Soluções", href: "#solucoes" },
   { label: "Método", href: "#metodo" },
-  { label: "Clube", href: "#" }
+  { label: "Perguntas", href: "#perguntas" }
 ];
 
 export function StickyBar() {

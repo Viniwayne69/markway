@@ -1,5 +1,6 @@
 import { HeroSection } from "@/components/HeroSection";
 import { TransformationSection } from "@/components/TransformationSection";
+import { SolutionsSection } from "@/components/SolutionsSection";
 import { MethodSection } from "@/components/MethodSection";
 import { ForWhomSection } from "@/components/ForWhomSection";
 import { FaqSection } from "@/components/FaqSection";
@@ -15,10 +16,11 @@ export default function Home() {
       <StickyBar />
       <ScrollEffects />
       <HeroSection />
-      <TransformationSection />
+      <SolutionsSection />
       <MethodSection />
-      <ForWhomSection />
+      <TransformationSection />
       <FaqSection />
+      <ForWhomSection />
       <FinalCtaSection />
     </main>
     <Footer />

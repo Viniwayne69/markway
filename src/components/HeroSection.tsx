@@ -1,7 +1,8 @@
 const navItems = [
   { label: "Início", href: "#inicio" },
+  { label: "Soluções", href: "#solucoes" },
   { label: "Método", href: "#metodo" },
-  { label: "Clube", href: "#" }
+  { label: "Perguntas", href: "#perguntas" }
 ];
 
 function MarkedWord() {

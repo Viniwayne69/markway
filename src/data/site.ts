@@ -36,3 +36,28 @@ export const faqItems = [
     a: "Sim. Conte na aplicação o que você precisa hoje e indicamos por onde faz mais sentido começar."
   }
 ];
+
+export const solutions = [
+  {
+    key: "treinamento",
+    title: "Treinamento",
+    tagline: "Seu time aprende",
+    items: [
+      "Posicionamento e comunicação da marca",
+      "Como apresentar o valor do que vocês vendem",
+      "Time alinhado com a identidade da marca"
+    ]
+  },
+  {
+    key: "consultoria",
+    title: "Consultoria",
+    tagline: "Fazemos com você",
+    items: ["Diagnóstico da marca", "Promessa, público e diferencial", "Plano de ações"]
+  },
+  {
+    key: "implementacao",
+    title: "Implementação",
+    tagline: "Fazemos por você",
+    items: ["Identidade visual e verbal", "Site e páginas de venda", "Materiais de comunicação"]
+  }
+];
