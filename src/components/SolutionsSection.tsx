@@ -1,57 +1,66 @@
 import type { CSSProperties, ReactNode } from "react";
-import { solutions } from "@/data/site";
+import { TreeLines } from "@/components/TreeLines";
+import { applyUrl, solutions } from "@/data/site";
 
 const icons: Record<string, ReactNode> = {
   treinamento: (
-    <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-      <path d="M6 18 24 8l18 10M10 20v16M19 20v16M29 20v16M38 20v16M6 40h36M8 36h32" />
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M22 10 12 5 2 10l10 5 10-5zM6 12v5c3 2 9 2 12 0v-5" />
     </svg>
   ),
   consultoria: (
-    <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-      <path d="M12 6h17l9 9v27H12zM29 6v9h9M18 24h14M18 30h14M18 36h9" />
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8" />
     </svg>
   ),
   implementacao: (
-    <svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-      <circle cx="24" cy="24" r="7" />
-      <path d="M24 6v6M24 36v6M6 24h6M36 24h6M11.3 11.3l4.2 4.2M32.5 32.5l4.2 4.2M11.3 36.7l4.2-4.2M32.5 15.5l4.2-4.2" />
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="3" />
+      <path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" />
     </svg>
   )
 };
 
 export function SolutionsSection() {
   return (
-    <section id="solucoes" className="solutions-section" aria-labelledby="solutions-title">
-      <div className="solutions-inner">
-        <p className="light-kicker" data-reveal>
-          O QUE FAZEMOS
-        </p>
-        <h2 id="solutions-title" className="light-title" data-reveal data-ring style={{ "--d": "120ms" } as CSSProperties}>
-          <span className="marked-word">
-            Soluções
-            <svg viewBox="0 0 230 16" aria-hidden="true" focusable="false">
-              <path pathLength="1" d="M3 11C32 5 64 14 104 9C148 4 190 13 227 7" />
-            </svg>
-          </span>
-        </h2>
+    <section id="solucoes" className="solutions-section section-offset section-pad" aria-labelledby="solutions-title">
+      <div className="section-shell">
+        <div className="solutions-head">
+          <h2 id="solutions-title" className="display-title solutions-title" data-reveal>
+            Como transformamos a sua marca em uma das mais desejadas?
+          </h2>
+          <p className="solutions-sub" data-reveal style={{ "--d": "100ms" } as CSSProperties}>
+            Temos 3 linhas de soluções
+          </p>
+        </div>
 
-        <div className="solutions-grid">
-          {solutions.map((solution, index) => (
-            <article className="solution-card" key={solution.key} data-reveal style={{ "--d": `${120 + index * 130}ms` } as CSSProperties}>
-              <span className="solution-icon">{icons[solution.key]}</span>
-              <h3>{solution.title}</h3>
-              <p className="solution-tagline">{solution.tagline}</p>
-              <ul>
-                {solution.items.map((item) => (
-                  <li key={item}>
-                    <span className="mark" aria-hidden="true" />
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-            </article>
-          ))}
+        <div className="solutions-wrap">
+          <TreeLines />
+          <div className="solutions-grid">
+            {solutions.map((card, index) => (
+              <article
+                key={card.key}
+                className={`solution-card tone-${card.tone}`}
+                data-reveal
+                style={{ "--d": `${250 + index * 140}ms` } as CSSProperties}
+              >
+                <span className="icon-badge">{icons[card.key]}</span>
+                <div className="solution-body">
+                  <h3>{card.title}</h3>
+                  <p className="solution-sub">{card.subtitle}</p>
+                  <span className="solution-rule" aria-hidden="true" />
+                  <p className="solution-text">{card.text}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+
+        <div className="solutions-foot" data-reveal>
+          <p>Contrate em conjunto ou separadamente.</p>
+          <a className="btn" href={applyUrl} target="_blank" rel="noopener noreferrer">
+            Iniciar aplicação
+          </a>
         </div>
       </div>
     </section>

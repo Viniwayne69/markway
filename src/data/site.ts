@@ -41,23 +41,22 @@ export const solutions = [
   {
     key: "treinamento",
     title: "Treinamento",
-    tagline: "Seu time aprende",
-    items: [
-      "Posicionamento e comunicação da marca",
-      "Como apresentar o valor do que vocês vendem",
-      "Time alinhado com a identidade da marca"
-    ]
+    subtitle: "Ensinamos seu time a fazer.",
+    text: "Posicionamento, comunicação e valor percebido para o seu time.",
+    tone: "cream"
   },
   {
     key: "consultoria",
     title: "Consultoria",
-    tagline: "Fazemos com você",
-    items: ["Diagnóstico da marca", "Promessa, público e diferencial", "Plano de ações"]
+    subtitle: "Fazemos com você.",
+    text: "Diagnóstico, posicionamento e plano de ações.",
+    tone: "yellow"
   },
   {
     key: "implementacao",
     title: "Implementação",
-    tagline: "Fazemos por você",
-    items: ["Identidade visual e verbal", "Site e páginas de venda", "Materiais de comunicação"]
+    subtitle: "Fazemos por você.",
+    text: "Identidade, site e materiais prontos para aplicar.",
+    tone: "red"
   }
 ];

@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond } from "next/font/google";
+import { Barlow_Condensed, Caveat, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
-const brandFont = Cormorant_Garamond({
+const bodyFont = Nunito_Sans({ variable: "--font-body", subsets: ["latin"], display: "swap" });
+
+const displayFont = Barlow_Condensed({
+  variable: "--font-display",
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-brand",
+  weight: ["700", "800"],
   display: "swap"
 });
+
+const scriptFont = Caveat({ variable: "--font-script", subsets: ["latin"], weight: ["700"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "SPEARE",
@@ -20,7 +24,7 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="pt-BR" className={brandFont.variable}>
+    <html lang="pt-BR" className={`${bodyFont.variable} ${displayFont.variable} ${scriptFont.variable}`}>
       <body>{children}</body>
     </html>
   );

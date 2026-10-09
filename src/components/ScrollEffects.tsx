@@ -1,8 +1,10 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 export function ScrollEffects() {
+  const bar = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     const root = document.documentElement;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -30,6 +32,8 @@ export function ScrollEffects() {
     // linha de progressão do Método
     const rows = Array.from(document.querySelectorAll<HTMLElement>(".method-row"));
     const update = () => {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      if (bar.current) bar.current.style.transform = `scaleX(${max > 0 ? Math.min(1, window.scrollY / max) : 0})`;
       const vh = window.innerHeight;
       const atBottom = window.scrollY + vh >= document.documentElement.scrollHeight - 8;
       const lit = rows.map((row, i) => {
@@ -57,5 +61,5 @@ export function ScrollEffects() {
     };
   }, []);
 
-  return null;
+  return <div ref={bar} className="scroll-progress" aria-hidden="true" />;
 }

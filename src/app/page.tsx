@@ -7,14 +7,14 @@ import { FaqSection } from "@/components/FaqSection";
 import { FinalCtaSection } from "@/components/FinalCtaSection";
 import { Footer } from "@/components/Footer";
 import { ScrollEffects } from "@/components/ScrollEffects";
-import { StickyBar } from "@/components/StickyBar";
+import { Header } from "@/components/Header";
 
 export default function Home() {
   return (
     <>
-    <main className="site-shell" aria-label="SPEARE">
-      <StickyBar />
-      <ScrollEffects />
+    <ScrollEffects />
+    <Header />
+    <main id="conteudo" className="site-shell" aria-label="SPEARE">
       <HeroSection />
       <SolutionsSection />
       <MethodSection />
