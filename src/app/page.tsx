@@ -17,8 +17,8 @@ export default function Home() {
     <main id="conteudo" className="site-shell" aria-label="SPEARE">
       <HeroSection />
       <SolutionsSection />
-      <MethodSection />
       <TransformationSection />
+      <MethodSection />
       <FaqSection />
       <ForWhomSection />
       <FinalCtaSection />

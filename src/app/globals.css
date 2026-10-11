@@ -1037,6 +1037,7 @@ button {
 /* ---------- Perguntas frequentes ---------- */
 
 .faq-section {
+  border-top: 1px solid rgba(239, 228, 204, 0.1);
   position: relative;
   isolation: isolate;
   overflow: hidden;
