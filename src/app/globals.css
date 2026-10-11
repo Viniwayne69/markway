@@ -2115,3 +2115,40 @@ body.menu-open { overflow: hidden; }
   .final-section::before { background-size: 520% auto; }
 }
 .forwhom-card.is-no { background: rgba(42, 31, 24, 0.82); }
+
+/* ---------- Fundos ilustrados: Consultoria, Implementação, Perguntas e rodapé ---------- */
+.band-cream,
+#implementacao,
+.faq-section,
+.site-footer { position: relative; isolation: isolate; }
+.site-footer { overflow: hidden; }
+
+.band-cream::before,
+#implementacao::before,
+.faq-section::before,
+.site-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.band-cream::before {
+  background-image: url("/images/bg-tools.webp");
+  opacity: 0.16;
+  -webkit-mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, rgba(0, 0, 0, 0.45), #000 85%);
+  mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, rgba(0, 0, 0, 0.45), #000 85%);
+}
+#implementacao::before { background-image: url("/images/bg-build.webp"); opacity: 0.12; }
+.faq-section::before { background-image: url("/images/bg-library.webp"); opacity: 0.16; }
+.site-footer::before { background-image: url("/images/bg-footer.webp"); background-position: 50% 74%; opacity: 0.14; }
+
+@media (max-width: 767px) {
+  .band-cream::before,
+  .faq-section::before { background-size: auto 100%; background-position: 0 50%; opacity: 0.09; }
+  #implementacao::before { background-size: auto 100%; background-position: 0 50%; opacity: 0.08; }
+  .site-footer::before { background-size: auto 100%; background-position: 40% 50%; opacity: 0.12; }
+}
