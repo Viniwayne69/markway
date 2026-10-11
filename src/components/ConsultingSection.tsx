@@ -33,7 +33,7 @@ export function ConsultingSection() {
 
         <div className="consulting-media" data-reveal style={{ "--d": "140ms" } as CSSProperties}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/images/consultoria.jpg" alt="Bússola medieval em ouro e carmim, símbolo de direção e posicionamento de marca" width={1200} height={900} loading="lazy" />
+          <img src="/images/consultoria.jpg" alt="Bússola dourada com esmalte carmim, símbolo de direção e posicionamento de marca" width={1200} height={900} loading="lazy" />
         </div>
       </div>
     </section>
