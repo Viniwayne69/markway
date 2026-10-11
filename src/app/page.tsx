@@ -39,10 +39,10 @@ export default function Home() {
       <HeroSection />
       <SolutionsSection />
       <TransformationSection />
+      <MethodSection />
       <TrainingSection />
       <ConsultingSection />
       <ImplementationSection />
-      <MethodSection />
       <ForWhomSection />
       <FaqSection />
       <FinalCtaSection />
