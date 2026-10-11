@@ -2161,7 +2161,6 @@ body.menu-open { overflow: hidden; }
 .light-kicker { color: var(--gold-ink); font-size: 0.85rem; letter-spacing: 0.1em; }
 .band-cream .solution-label { color: var(--gold-ink); }
 .solution-label { font-size: 0.86rem; letter-spacing: 0.1em; }
-.section-kicker { color: var(--gold-ink); font-size: max(0.82rem, 1.05cqw); letter-spacing: 0.1em; }
 
 .feature-card h3 { font-size: 1.25rem; }
 .feature-card p,
@@ -2190,17 +2189,6 @@ body.menu-open { overflow: hidden; }
 .steps-list li { transition: transform 0.2s ease, box-shadow 0.2s ease; }
 .steps-list li:hover { transform: translateY(-4px); box-shadow: 0 14px 28px rgba(70, 40, 15, 0.14); }
 
-/* ---------- Antes e Depois: mesma linguagem tipográfica das outras seções ---------- */
-@media (min-width: 761px) {
-  .transformation-title { font-size: 5.4cqw; }
-  .transformation-content { padding-top: 3.4cqw; padding-bottom: 4.2cqw; }
-}
-.comparison-list.after,
-.fx .transformation-grid.is-in .comparison-list.after { transform: none; }
-.transformation-section { aspect-ratio: auto; min-height: 0; }
-.comparison-list li { font-size: max(0.95rem, 1.32cqw); }
-.transformation-cta { display: flex; width: fit-content; margin: 3cqw auto 0; }
-@media (max-width: 760px) { .transformation-cta { margin-top: 1.6rem; } }
 
 /* ---------- Botões ---------- */
 .btn { min-height: 3.2rem; padding: 0.85rem 1.8rem; font-size: 1rem; border-radius: 12px; }
@@ -2256,5 +2244,4 @@ body.menu-open { overflow: hidden; }
   .feature-card p,
   .steps-list p { font-size: 1rem; }
   .feature-grid, .steps-list { gap: 0.75rem; }
-  .transformation-cta { width: 100%; margin-top: 1.6rem; }
 }
