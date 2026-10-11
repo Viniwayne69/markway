@@ -1,5 +1,6 @@
 import type { CSSProperties } from "react";
 import { beforeItems, afterItems } from "@/data/transformation";
+import { applyUrl } from "@/data/site";
 
 type ComparisonListProps = {
   title: string;
@@ -76,6 +77,10 @@ export function TransformationSection() {
 
           <ComparisonList title="Depois" tone="after" items={afterItems} />
         </div>
+
+        <a className="btn btn-red transformation-cta" data-reveal href={applyUrl} target="_blank" rel="noopener noreferrer">
+          Quero esse resultado
+        </a>
       </div>
     </section>
   );
