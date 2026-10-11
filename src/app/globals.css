@@ -2073,3 +2073,45 @@ body.menu-open { overflow: hidden; }
 }
 .final-section .method-kicker { color: var(--yellow); }
 .final-section .marked-word path { stroke: var(--gold); }
+
+/* ---------- Fundos ilustrados (gravuras quase invisíveis) ---------- */
+.solutions-section,
+.band-carmine,
+.method-section,
+.forwhom-section,
+.final-section { isolation: isolate; }
+
+.solutions-section::before,
+.band-carmine::before,
+.method-section::before,
+.forwhom-section::before,
+.final-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.solutions-section::before { background-image: url("/images/bg-map-dark.webp"); opacity: 0.08; }
+.band-carmine::before { background-image: url("/images/bg-map-dark.webp"); opacity: 0.06; background-position: 20% 40%; }
+.method-section::before {
+  background-image: url("/images/bg-map-light.webp");
+  opacity: 0.07;
+  -webkit-mask-image: radial-gradient(ellipse 60% 55% at 50% 50%, rgba(0, 0, 0, 0.3), #000 80%);
+  mask-image: radial-gradient(ellipse 60% 55% at 50% 50%, rgba(0, 0, 0, 0.3), #000 80%);
+}
+.forwhom-section::before { background-image: url("/images/bg-statues.webp"); opacity: 0.085; }
+.final-section::before {
+  background-image: url("/images/bg-map-dark.webp");
+  background-size: 250% auto;
+  background-position: 50% 86%;
+  opacity: 0.075;
+}
+@media (max-width: 767px) {
+  .forwhom-section::before { background-size: auto 62%; background-position: 0 0; opacity: 0.07; }
+  .final-section::before { background-size: 520% auto; }
+}
+.forwhom-card.is-no { background: rgba(42, 31, 24, 0.82); }
