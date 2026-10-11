@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Barlow_Condensed, Caveat, Nunito_Sans } from "next/font/google";
+import { Barlow_Condensed, Caveat, Cormorant_Garamond, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
 const bodyFont = Nunito_Sans({ variable: "--font-body", subsets: ["latin"], display: "swap" });
@@ -8,6 +8,13 @@ const displayFont = Barlow_Condensed({
   variable: "--font-display",
   subsets: ["latin"],
   weight: ["700", "800"],
+  display: "swap"
+});
+
+const heroFont = Cormorant_Garamond({
+  variable: "--font-brand",
+  subsets: ["latin"],
+  weight: ["500", "600", "700"],
   display: "swap"
 });
 
@@ -24,7 +31,7 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="pt-BR" className={`${bodyFont.variable} ${displayFont.variable} ${scriptFont.variable}`}>
+    <html lang="pt-BR" className={`${bodyFont.variable} ${displayFont.variable} ${scriptFont.variable} ${heroFont.variable}`}>
       <body>{children}</body>
     </html>
   );

@@ -12,12 +12,12 @@ const navItems = [
 const applyUrl = "https://crm-rnsx.vercel.app/aplicar";
 
 export function Header() {
-  const [scrolled, setScrolled] = useState(false);
+  const [visible, setVisible] = useState(false);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState("");
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 80);
+    const onScroll = () => setVisible(window.scrollY > window.innerHeight * 0.8);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
@@ -34,8 +34,8 @@ export function Header() {
       .filter((section): section is Element => Boolean(section));
     const observer = new IntersectionObserver(
       (entries) => {
-        const visible = entries.find((entry) => entry.isIntersecting);
-        if (visible?.target.id) setActive(`#${visible.target.id}`);
+        const hit = entries.find((entry) => entry.isIntersecting);
+        if (hit?.target.id) setActive(`#${hit.target.id}`);
       },
       { rootMargin: "-35% 0px -55% 0px" }
     );
@@ -43,11 +43,17 @@ export function Header() {
     return () => observer.disconnect();
   }, []);
 
+  useEffect(() => {
+    const openMenu = () => setOpen(true);
+    window.addEventListener("speare:open-menu", openMenu);
+    return () => window.removeEventListener("speare:open-menu", openMenu);
+  }, []);
+
   const close = () => setOpen(false);
 
   return (
     <>
-      <header className={`site-header${scrolled ? " is-scrolled" : ""}`}>
+      <header className={`site-header${visible ? " is-visible" : ""}`}>
         <a href="#conteudo" className="skip-link">
           Pular para o conteúdo
         </a>
