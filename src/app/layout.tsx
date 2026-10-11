@@ -20,9 +20,27 @@ const heroFont = Cormorant_Garamond({
 
 const scriptFont = Caveat({ variable: "--font-script", subsets: ["latin"], weight: ["700"], display: "swap" });
 
+const title = "SPEARE | Marcas que atraem os clientes certos";
+const description =
+  "Criamos e aceleramos marcas que atraem os clientes certos, elevam o valor percebido e vendem mais. Treinamento, consultoria e implementação de posicionamento de marca.";
+
 export const metadata: Metadata = {
-  title: "SPEARE",
-  description: "Landing page premium da SPEARE"
+  title,
+  description,
+  applicationName: "SPEARE",
+  keywords: ["posicionamento de marca", "consultoria de marca", "identidade visual", "valor percebido", "branding"],
+  openGraph: {
+    title,
+    description,
+    siteName: "SPEARE",
+    locale: "pt_BR",
+    type: "website"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description
+  }
 };
 
 type RootLayoutProps = {

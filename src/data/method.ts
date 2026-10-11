@@ -1,26 +1,22 @@
 export const methodSteps = [
   {
-    numeral: "I",
+    title: "Conversa inicial",
+    text: "Entendemos o seu negócio, o seu momento e o que você quer alcançar.",
+    solution: "Aplicação"
+  },
+  {
     title: "Diagnóstico",
-    text: "Leitura do negócio, do público e do mercado.",
-    delivery: "relatório com os pontos fortes e os gargalos da marca."
+    text: "Mapeamos os pontos fortes e os gargalos da marca, do público ao mercado.",
+    solution: "Consultoria"
   },
   {
-    numeral: "II",
-    title: "Posicionamento",
-    text: "O que a marca promete e por que é diferente.",
-    delivery: "promessa, público e diferencial definidos por escrito."
+    title: "Posicionamento e identidade",
+    text: "Definimos promessa, público e diferencial, e criamos a identidade visual e verbal.",
+    solution: "Implementação"
   },
   {
-    numeral: "III",
-    title: "Identidade",
-    text: "Imagem e comunicação que tornam a marca reconhecível.",
-    delivery: "identidade visual e verbal pronta para aplicar."
-  },
-  {
-    numeral: "IV",
     title: "Aceleração",
-    text: "Presença no mercado para atrair os clientes certos.",
-    delivery: "plano de ações para atrair os clientes certos."
+    text: "Treinamos o seu time e acompanhamos o plano de ações para atrair os clientes certos.",
+    solution: "Treinamento"
   }
 ];

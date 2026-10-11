@@ -29,25 +29,9 @@ export function ScrollEffects() {
       targets.forEach((el) => observer?.observe(el));
     }
 
-    // linha de progressão do Método
-    const rows = Array.from(document.querySelectorAll<HTMLElement>(".method-row"));
     const update = () => {
       const max = document.documentElement.scrollHeight - window.innerHeight;
       if (bar.current) bar.current.style.transform = `scaleX(${max > 0 ? Math.min(1, window.scrollY / max) : 0})`;
-      const vh = window.innerHeight;
-      const atBottom = window.scrollY + vh >= document.documentElement.scrollHeight - 8;
-      const lit = rows.map((row, i) => {
-        const n = row.querySelector<HTMLElement>(".method-numeral");
-        if (!n) return false;
-        // a última etapa acende um pouco antes, para não depender do fim da página
-        const mark = vh * (i === rows.length - 1 ? 0.85 : 0.68);
-        const r = n.getBoundingClientRect();
-        return atBottom || r.top + r.height / 2 <= mark;
-      });
-      rows.forEach((row, i) => {
-        row.classList.toggle("is-lit", lit[i]);
-        row.classList.toggle("is-through", Boolean(lit[i + 1]));
-      });
     };
     update();
     window.addEventListener("scroll", update, { passive: true });

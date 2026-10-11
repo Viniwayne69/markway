@@ -1,6 +1,7 @@
 import type { CSSProperties, ReactNode } from "react";
 import { TreeLines } from "@/components/TreeLines";
 import { applyUrl, solutions } from "@/data/site";
+import { ChevronIcon } from "@/components/Icons";
 
 const icons: Record<string, ReactNode> = {
   treinamento: (
@@ -38,8 +39,9 @@ export function SolutionsSection() {
           <TreeLines />
           <div className="solutions-grid">
             {solutions.map((card, index) => (
-              <article
+              <a
                 key={card.key}
+                href={`#${card.key}`}
                 className={`solution-card tone-${card.tone}`}
                 data-reveal
                 style={{ "--d": `${250 + index * 140}ms` } as CSSProperties}
@@ -51,7 +53,8 @@ export function SolutionsSection() {
                   <span className="solution-rule" aria-hidden="true" />
                   <p className="solution-text">{card.text}</p>
                 </div>
-              </article>
+                <span className="solution-chevron" aria-hidden="true"><ChevronIcon /></span>
+              </a>
             ))}
           </div>
         </div>

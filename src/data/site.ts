@@ -60,3 +60,23 @@ export const solutions = [
     tone: "red"
   }
 ];
+
+export const trainingCards = [
+  { title: "Posicionamento", text: "Seu time entende o que a marca promete e por que é diferente." },
+  { title: "Comunicação", text: "Uma só voz, clara e consistente, em cada ponto de contato." },
+  { title: "Valor percebido", text: "Como mostrar o valor do que vocês entregam, sem depender de desconto." },
+  { title: "Alinhamento", text: "Do dono ao atendimento, todos contam a mesma história da marca." }
+];
+
+export const consultingSteps = [
+  ["Diagnóstico", "Lemos o seu negócio, o seu público e o mercado para achar os gargalos da marca."],
+  ["Posicionamento", "Definimos o que a sua marca promete, para quem e por que é diferente."],
+  ["Plano de ações", "Entregamos um plano claro, em ordem de prioridade, para você colocar em prática."]
+];
+
+export const implementationCards = [
+  ["Identidade visual e verbal", "Logo, cores, tipografia e o jeito de falar da marca."],
+  ["Site e páginas de venda", "Páginas claras, que mostram valor e levam o cliente à ação."],
+  ["Materiais de comunicação", "Apresentações, posts e peças prontas para usar no dia a dia."],
+  ["Plano de ações aplicado", "O posicionamento colocado em prática, etapa por etapa."]
+];

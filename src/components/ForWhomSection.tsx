@@ -5,11 +5,11 @@ export function ForWhomSection() {
   return (
     <section id="para-quem" className="forwhom-section" aria-labelledby="forwhom-title">
       <div className="forwhom-inner">
-        <p className="light-kicker" data-reveal>
+        <p className="method-kicker" data-reveal>
           PARA QUEM É
         </p>
 
-        <h2 id="forwhom-title" className="light-title" data-reveal data-ring style={{ "--d": "120ms" } as CSSProperties}>
+        <h2 id="forwhom-title" className="method-title" data-reveal data-ring style={{ "--d": "120ms" } as CSSProperties}>
           Feito para marcas que querem ser{" "}
           <span className="marked-word">
             escolhidas
