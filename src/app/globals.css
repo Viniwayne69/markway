@@ -2099,9 +2099,9 @@ body.menu-open { overflow: hidden; }
 .band-carmine::before { background-image: url("/images/bg-map-dark.webp"); opacity: 0.06; background-position: 20% 40%; }
 .method-section::before {
   background-image: url("/images/bg-map-light.webp");
-  opacity: 0.07;
-  -webkit-mask-image: radial-gradient(ellipse 60% 55% at 50% 50%, rgba(0, 0, 0, 0.3), #000 80%);
-  mask-image: radial-gradient(ellipse 60% 55% at 50% 50%, rgba(0, 0, 0, 0.3), #000 80%);
+  opacity: 0.17;
+  -webkit-mask-image: radial-gradient(ellipse 62% 58% at 50% 52%, rgba(0, 0, 0, 0.5), #000 85%);
+  mask-image: radial-gradient(ellipse 62% 58% at 50% 52%, rgba(0, 0, 0, 0.5), #000 85%);
 }
 .forwhom-section::before { background-image: url("/images/bg-statues.webp"); opacity: 0.085; }
 .final-section::before {
