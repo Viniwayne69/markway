@@ -7,7 +7,7 @@ const icons = [TargetIcon, ChatIcon, GemIcon, LinkIcon];
 export function TrainingSection() {
   return (
     <section id="treinamento" className="solution-section band-carmine section-offset section-pad" aria-labelledby="training-title">
-      <div className="section-shell">
+      <div className="section-shell is-center">
         <p className="solution-label" data-reveal>
           <CapIcon /> SOLUÇÃO 1 · TREINAMENTO
         </p>
