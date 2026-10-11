@@ -2103,7 +2103,7 @@ body.menu-open { overflow: hidden; }
   -webkit-mask-image: radial-gradient(ellipse 62% 58% at 50% 52%, rgba(0, 0, 0, 0.5), #000 85%);
   mask-image: radial-gradient(ellipse 62% 58% at 50% 52%, rgba(0, 0, 0, 0.5), #000 85%);
 }
-.forwhom-section::before { background-image: url("/images/bg-statues.webp"); opacity: 0.085; }
+.forwhom-section::before { background-image: url("/images/bg-statues.webp"); opacity: 0.1; }
 .final-section::before {
   background-image: url("/images/bg-map-dark.webp");
   background-size: 250% auto;
