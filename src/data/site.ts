@@ -62,22 +62,22 @@ export const solutions = [
 ];
 
 export const portoCards = [
-  { title: "Diagnóstico profundo", text: "Você recebe uma análise completa do seu negócio e da sua marca, com os gargalos e as oportunidades mapeados, para crescer sem desperdiçar dinheiro." },
-  { title: "O retrato em números", text: "Olhamos quanto cada cliente gasta, quantos voltam a comprar, quantos dos que chegam realmente compram e quanto custa trazer um cliente novo, para mostrar em dinheiro o que a sua marca está deixando escapar." },
-  { title: "Jornada mapeada", text: "Você recebe o caminho do seu cliente desenhado do primeiro contato ao pós-venda, com o ponto exato onde ele desiste, para parar de perder venda no meio do percurso." }
+  { title: "Diagnóstico Profundo", text: "Abrimos o seu negócio e a sua marca, com os gargalos e as oportunidades apontados um a um, para você crescer sem gastar dinheiro no lugar errado." },
+  { title: "Raio-X do Faturamento", text: "Olhamos quanto cada cliente gasta, quantos voltam a comprar, quantos dos que chegam realmente compram e quanto custa trazer um cliente novo, para mostrar em dinheiro o que a sua marca está deixando escapar." },
+  { title: "Mapa da Jornada", text: "Desenhamos o caminho do seu cliente, do primeiro contato ao pós-venda, com o ponto exato onde ele desiste marcado, para você parar de perder venda no meio do percurso." }
 ];
 export const portoResult = "mais gente certa chegando e menos cliente perdido no caminho";
 
 export const rotaSteps = [
-  ["Posicionamento de marca", "Com os gargalos na mesa, definimos o lugar que só a sua marca pode ocupar e o cliente que ela quer atrair, e entregamos isso escrito numa página só, para o seu time inteiro saber o que a empresa é e para quem ela vende."],
-  ["Comunicação de Marca", "Estruturamos a identidade verbal da sua marca e os territórios de mensagem de cada canal, entregando o repertório completo de comunicação, com frases-chave e diretrizes de resposta, para a sua marca comunicar com consistência e converter em qualquer ponto de contato."],
-  ["A limpa", "Com a marca definida, entregamos a lista do que a empresa vai parar de fazer: o que faz a sua marca parecer igual às outras e os processos que faziam vocês perderem cliente e margem todo mês."]
+  ["Posicionamento de Marca", "Com os gargalos na mesa, definimos o lugar que só a sua marca ocupa e o cliente que ela quer atrair, numa página só, para a empresa inteira saber o que vende e para quem."],
+  ["Proposta de Valor", "Estruturamos a proposta de valor da sua marca e os argumentos de venda que sustentam o seu preço, entregando o repertório comercial completo para objeções e comparações, para o seu time vender com margem e sem depender de desconto."],
+  ["Foco Estratégico", "Definimos o que sai da operação, das promoções que corroem margem aos processos que geram atrito na jornada, para concentrar o investimento apenas no que gera receita eficiente."]
 ];
 export const rotaResult = "menos desconto para fechar e ticket maior em cada pedido";
 
 export const travessiaCards = [
-  ["Marca em operação", "Com o caminho livre, aplicamos a marca na identidade, no site e nos conteúdos, para o cliente reconhecer a sua empresa em tudo o que ela mostra."],
-  ["Time treinado e jornada alinhada", "Treinamos o seu time e alinhamos cada ponto da jornada, do anúncio ao pós-venda, para o cliente viver exatamente o que a comunicação promete."],
-  ["Acompanhamento semanal", "Acompanhamento semanal com ajustes para garantir o resultado: coleta de dados, análise, correções, registro do que funcionou e processos documentados."]
+  ["Marca Aplicada", "Com o caminho livre, colocamos a marca na identidade, no site e nos conteúdos, para o cliente reconhecer a sua empresa em tudo o que ela mostra."],
+  ["Time Treinado", "Treinamos o seu time e ajustamos cada ponto da jornada, do anúncio ao pós-venda, para o cliente viver exatamente o que a sua comunicação promete."],
+  ["Acompanhamento Semanal", "Acompanhamos a execução toda semana, com dados na mesa, correções e registro do que funcionou, para a marca virar rotina da empresa e não documento na gaveta."]
 ];
 export const travessiaResult = "cliente que compra de novo e indica a sua marca";
