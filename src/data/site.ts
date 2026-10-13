@@ -69,7 +69,7 @@ export const portoCards = [
 export const portoResult = "mais gente certa chegando e menos cliente perdido no caminho";
 
 export const rotaSteps = [
-  ["Posicionamento de Marca", "Com os gargalos na mesa, definimos o lugar que só a sua marca ocupa e o cliente que ela quer atrair, numa página só, para a empresa inteira saber o que vende e para quem."],
+  ["Posicionamento de Marca", "Com os gargalos na mesa, definimos o lugar que só a sua marca ocupa e o cliente que ela quer atrair, para a empresa inteira saber o que vende e para quem."],
   ["Proposta de Valor", "Estruturamos a proposta de valor da sua marca e os argumentos de venda que sustentam o seu preço, entregando o repertório comercial completo para objeções e comparações, para o seu time vender com margem e sem depender de desconto."],
   ["Foco Estratégico", "Definimos o que sai da operação, das promoções que corroem margem aos processos que geram atrito na jornada, para concentrar o investimento apenas no que gera receita eficiente."]
 ];
