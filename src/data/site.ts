@@ -63,7 +63,7 @@ export const solutions = [
 
 export const portoCards = [
   { title: "Diagnóstico profundo", text: "Você recebe uma análise completa do seu negócio e da sua marca, com os gargalos e as oportunidades mapeados, para crescer sem desperdiçar dinheiro." },
-  { title: "Time escutado", text: "Você recebe o que o seu time tem a dizer transformado em informação útil, porque é quem atende que sabe onde a jornada trava." },
+  { title: "O que o seu time sabe", text: "Entrevistamos o dono e quem atende para registrar o que nunca é anotado: as perguntas que mais se repetem, as objeções que travam a venda e os motivos que levam ao desconto." },
   { title: "Jornada mapeada", text: "Você recebe o caminho do seu cliente desenhado do primeiro contato ao pós-venda, com o ponto exato onde ele desiste, para parar de perder venda no meio do percurso." }
 ];
 export const portoResult = "mais gente certa chegando e menos cliente perdido no caminho";
