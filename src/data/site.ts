@@ -69,8 +69,9 @@ export const portoCards = [
 export const portoResult = "mais gente certa chegando e menos cliente perdido no caminho";
 
 export const rotaSteps = [
-  ["Posicionamento de marca", "Com os gargalos na mesa, entregamos a marca da sua empresa definida de ponta a ponta, posicionamento, valores, mensagem e cliente certo, transformando-a numa das mais desejadas da sua geração."],
-  ["A limpa", "Com a marca definida, cortamos tudo o que faz ela parecer igual às outras e os processos que travavam o crescimento, que fazem a empresa perder cliente e margem todo mês."]
+  ["Posicionamento de marca", "Com os gargalos na mesa, definimos o lugar que só a sua marca pode ocupar e o cliente que ela quer atrair, e entregamos isso escrito numa página só, para o seu time inteiro saber o que a empresa é e para quem ela vende."],
+  ["Comunicação de Marca", "Estruturamos a identidade verbal da sua marca e os territórios de mensagem de cada canal, entregando o repertório completo de comunicação, com frases-chave e diretrizes de resposta, para a sua marca comunicar com consistência e converter em qualquer ponto de contato."],
+  ["A limpa", "Com a marca definida, entregamos a lista do que a empresa vai parar de fazer: o que faz a sua marca parecer igual às outras e os processos que faziam vocês perderem cliente e margem todo mês."]
 ];
 export const rotaResult = "menos desconto para fechar e ticket maior em cada pedido";
 
