@@ -2,8 +2,7 @@ import { HeroMenuButton } from "@/components/HeroMenuButton";
 
 const navItems = [
   { label: "Início", href: "#inicio" },
-  { label: "Soluções", href: "#solucoes" },
-  { label: "Método", href: "#metodo" },
+  { label: "Serviço", href: "#solucoes" },
   { label: "Perguntas", href: "#perguntas" }
 ];
 

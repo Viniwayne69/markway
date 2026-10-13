@@ -20,9 +20,9 @@ const heroFont = Cormorant_Garamond({
 
 const scriptFont = Caveat({ variable: "--font-script", subsets: ["latin"], weight: ["700"], display: "swap" });
 
-const title = "SPEARE | Marcas que atraem os clientes certos";
+const title = "SPEARE | Marcas desejadas começam por um destino claro";
 const description =
-  "Criamos e aceleramos marcas que atraem os clientes certos, elevam o valor percebido e vendem mais. Treinamento, consultoria e implementação de posicionamento de marca.";
+  "Criamos e aceleramos marcas que atraem os clientes certos, elevam o valor percebido e vendem mais. Um único serviço em três partes: Porto, Rota e Travessia.";
 
 export const metadata: Metadata = {
   title,

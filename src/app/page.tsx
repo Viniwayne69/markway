@@ -1,10 +1,9 @@
 import { HeroSection } from "@/components/HeroSection";
 import { TransformationSection } from "@/components/TransformationSection";
 import { SolutionsSection } from "@/components/SolutionsSection";
-import { TrainingSection } from "@/components/TrainingSection";
-import { ConsultingSection } from "@/components/ConsultingSection";
-import { ImplementationSection } from "@/components/ImplementationSection";
-import { MethodSection } from "@/components/MethodSection";
+import { PortoSection } from "@/components/PortoSection";
+import { RotaSection } from "@/components/RotaSection";
+import { TravessiaSection } from "@/components/TravessiaSection";
 import { ForWhomSection } from "@/components/ForWhomSection";
 import { FaqSection } from "@/components/FaqSection";
 import { FinalCtaSection } from "@/components/FinalCtaSection";
@@ -17,12 +16,12 @@ const jsonLd = {
   "@type": "ProfessionalService",
   name: "SPEARE",
   description:
-    "Criamos e aceleramos marcas que atraem os clientes certos, elevam o valor percebido e vendem mais.",
+    "Criamos marcas desejadas, do destino à prática, em um único serviço de posicionamento de marca com três partes: Porto, Rota e Travessia.",
   serviceType: "Posicionamento de marca",
   hasOfferCatalog: {
     "@type": "OfferCatalog",
-    name: "Soluções SPEARE",
-    itemListElement: ["Treinamento", "Consultoria", "Implementação"].map((name) => ({
+    name: "Serviço SPEARE",
+    itemListElement: ["Porto", "Rota", "Travessia"].map((name) => ({
       "@type": "Offer",
       itemOffered: { "@type": "Service", name }
     }))
@@ -38,10 +37,9 @@ export default function Home() {
     <main id="conteudo" className="site-shell" aria-label="SPEARE">
       <HeroSection />
       <SolutionsSection />
-      <TrainingSection />
-      <ConsultingSection />
-      <ImplementationSection />
-      <MethodSection />
+      <PortoSection />
+      <RotaSection />
+      <TravessiaSection />
       <TransformationSection />
       <ForWhomSection />
       <FaqSection />

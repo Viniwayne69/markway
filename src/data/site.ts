@@ -20,63 +20,64 @@ export const faqItems = [
     a: "Você preenche um formulário curto, que leva menos de 2 minutos. Com as suas respostas, avaliamos se a SPEARE é o caminho certo para a sua marca e retornamos com o próximo passo."
   },
   {
-    q: "O que eu recebo em cada etapa?",
-    a: "Diagnóstico: um relatório com os pontos fortes e os gargalos da marca. Posicionamento: promessa, público e diferencial definidos por escrito. Identidade: identidade visual e verbal pronta para aplicar. Aceleração: um plano de ações para atrair os clientes certos."
+    q: "O que eu recebo em cada parte?",
+    a: "Porto: diagnóstico da marca, do mercado e do público, treinamento do time e o destino da marca definido. Rota: o posicionamento, os valores e a mensagem da marca, e o que ela deixa de fazer. Travessia: aplicação na identidade, nos conteúdos e no site, atendimento e vendas alinhados à marca e acompanhamento durante a execução."
   },
   {
     q: "Preciso já ter uma marca para começar?",
-    a: "Você precisa ter um negócio, produto ou serviço em funcionamento. A marca pode estar confusa ou pouco clara. Esse é justamente o ponto de partida do diagnóstico."
+    a: "Você precisa ter um negócio, produto ou serviço em funcionamento. A marca pode estar confusa ou pouco clara. Esse é justamente o ponto de partida do Porto."
   },
   {
     q: "A SPEARE serve para o meu tipo de negócio?",
-    a: "O método foi pensado para negócios que querem aumentar o valor percebido e atrair clientes mais alinhados. Na aplicação você conta o seu contexto e analisamos o encaixe."
+    a: "O serviço foi pensado para negócios que querem aumentar o valor percebido e atrair clientes mais alinhados. Na aplicação você conta o seu contexto e analisamos o encaixe."
   },
   {
-    q: "Posso contratar só uma parte do método?",
-    a: "Sim. Conte na aplicação o que você precisa hoje e indicamos por onde faz mais sentido começar."
+    q: "Posso contratar só uma parte?",
+    a: "A SPEARE é um único serviço, feito em ordem: Porto, Rota e Travessia. Cada parte se apoia na anterior, por isso não são vendidas separadamente. Conte na aplicação o seu momento e vemos juntos como começar."
   }
 ];
 
 export const solutions = [
   {
-    key: "treinamento",
-    title: "Treinamento",
-    subtitle: "Ensinamos seu time a fazer.",
-    text: "Posicionamento, comunicação e valor percebido para o seu time.",
+    key: "porto",
+    title: "Porto",
+    subtitle: "Para onde a marca quer ir?",
+    text: "Defina o destino.",
     tone: "cream"
   },
   {
-    key: "consultoria",
-    title: "Consultoria",
-    subtitle: "Fazemos com você.",
-    text: "Diagnóstico, posicionamento e plano de ações.",
+    key: "rota",
+    title: "Rota",
+    subtitle: "Como chegar lá sendo diferente?",
+    text: "Trace o caminho que só você tem.",
     tone: "yellow"
   },
   {
-    key: "implementacao",
-    title: "Implementação",
-    subtitle: "Fazemos por você.",
-    text: "Identidade, site e materiais prontos para aplicar.",
+    key: "travessia",
+    title: "Travessia",
+    subtitle: "Como isso vira realidade?",
+    text: "Coloque a marca em prática.",
     tone: "red"
   }
 ];
 
-export const trainingCards = [
-  { title: "Posicionamento", text: "Seu time entende o que a marca promete e por que é diferente." },
-  { title: "Comunicação", text: "Uma só voz, clara e consistente, em cada ponto de contato." },
-  { title: "Valor percebido", text: "Como mostrar o valor do que vocês entregam, sem depender de desconto." },
-  { title: "Alinhamento", text: "Do dono ao atendimento, todos contam a mesma história da marca." }
+export const portoCards = [
+  { title: "Diagnóstico", text: "Lemos a sua marca, o mercado e o público para entender onde você está." },
+  { title: "Treinamento", text: "O seu time aprende a enxergar a marca e a falar a mesma língua." },
+  { title: "Destino definido", text: "Deixamos claro onde a marca quer estar." }
 ];
+export const portoResult = "Clareza de destino";
 
-export const consultingSteps = [
-  ["Diagnóstico", "Lemos o seu negócio, o seu público e o mercado para achar os gargalos da marca."],
-  ["Posicionamento", "Definimos o que a sua marca promete, para quem e por que é diferente."],
-  ["Plano de ações", "Entregamos um plano claro, em ordem de prioridade, para você colocar em prática."]
+export const rotaSteps = [
+  ["Posicionamento", "O lugar que só a sua marca ocupa."],
+  ["Valores e mensagem", "O que a marca defende e como ela fala."],
+  ["O que deixar de fazer", "O que a marca abandona para não se parecer com todo mundo."]
 ];
+export const rotaResult = "Um caminho que ninguém disputa";
 
-export const implementationCards = [
-  ["Identidade visual e verbal", "Logo, cores, tipografia e o jeito de falar da marca."],
-  ["Site e páginas de venda", "Páginas claras, que mostram valor e levam o cliente à ação."],
-  ["Materiais de comunicação", "Apresentações, posts e peças prontas para usar no dia a dia."],
-  ["Plano de ações aplicado", "O posicionamento colocado em prática, etapa por etapa."]
+export const travessiaCards = [
+  ["Identidade, conteúdos e site", "A marca aplicada onde o cliente a vê."],
+  ["Atendimento e vendas", "Cada contato alinhado à marca, do primeiro \"oi\" ao fechamento."],
+  ["Acompanhamento", "Estamos junto durante a execução, para a marca sair do papel."]
 ];
+export const travessiaResult = "Marca em prática, e não só no papel";

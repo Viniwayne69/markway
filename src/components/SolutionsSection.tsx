@@ -1,25 +1,12 @@
 import type { CSSProperties, ReactNode } from "react";
 import { TreeLines } from "@/components/TreeLines";
 import { applyUrl, solutions } from "@/data/site";
-import { ChevronIcon } from "@/components/Icons";
+import { AnchorIcon, ChevronIcon, CompassIcon, ShipIcon } from "@/components/Icons";
 
 const icons: Record<string, ReactNode> = {
-  treinamento: (
-    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <path d="M22 10 12 5 2 10l10 5 10-5zM6 12v5c3 2 9 2 12 0v-5" />
-    </svg>
-  ),
-  consultoria: (
-    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8" />
-    </svg>
-  ),
-  implementacao: (
-    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-      <circle cx="12" cy="12" r="3" />
-      <path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1" />
-    </svg>
-  )
+  porto: <AnchorIcon />,
+  rota: <CompassIcon />,
+  travessia: <ShipIcon />
 };
 
 export function SolutionsSection() {
@@ -31,7 +18,7 @@ export function SolutionsSection() {
             Como transformamos a sua marca em uma das mais desejadas?
           </h2>
           <p className="solutions-sub" data-reveal style={{ "--d": "100ms" } as CSSProperties}>
-            Temos 3 linhas de soluções
+            Um serviço, três partes, em ordem
           </p>
         </div>
 
@@ -60,7 +47,7 @@ export function SolutionsSection() {
         </div>
 
         <div className="solutions-foot" data-reveal>
-          <p>Contrate em conjunto ou separadamente.</p>
+          <p>Marcas desejadas começam por um destino claro.</p>
           <a className="btn" href={applyUrl} target="_blank" rel="noopener noreferrer">
             Iniciar aplicação
           </a>

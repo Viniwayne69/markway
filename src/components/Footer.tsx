@@ -8,7 +8,7 @@ export function Footer() {
         <p className="footer-tag">Marcas que atraem os clientes certos.</p>
         <nav className="footer-nav" aria-label="Rodapé">
           <a href="#inicio">Início</a>
-          <a href="#metodo">Método</a>
+          <a href="#solucoes">Serviço</a>
           <a href="#para-quem">Para quem é</a>
           <a href="#perguntas">Perguntas</a>
         </nav>

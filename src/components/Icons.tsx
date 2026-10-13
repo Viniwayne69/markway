@@ -72,3 +72,20 @@ export const ChevronIcon = () => (
     <path d="m9 6 6 6-6 6" />
   </Svg>
 );
+export const AnchorIcon = () => (
+  <Svg>
+    <circle cx="12" cy="5" r="2" />
+    <path d="M12 7v14M8 11h8M4 14a8 8 0 0 0 16 0M4 14H2M20 14h2" />
+  </Svg>
+);
+export const CompassIcon = () => (
+  <Svg>
+    <circle cx="12" cy="12" r="9" />
+    <path d="m15.5 8.5-2 5-5 2 2-5z" />
+  </Svg>
+);
+export const ShipIcon = () => (
+  <Svg>
+    <path d="M12 3v13M12 3l7 11h-7M12 5 6 14h6M3 19h18l-2 2H5z" />
+  </Svg>
+);
