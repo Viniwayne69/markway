@@ -12,7 +12,7 @@ export function TravessiaSection() {
           <ShipIcon /> PARTE 3 · TRAVESSIA
         </p>
         <h2 id="travessia-title" className="display-title solution-title is-wide" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
-          Estratégia no papel não vende. Então, a gente faz a travessia até a prática
+          Coloque a sua marca para funcionar, do site ao atendimento
         </h2>
 
         <div className="feature-grid is-three">

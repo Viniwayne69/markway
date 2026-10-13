@@ -12,7 +12,7 @@ export function PortoSection() {
           <CompassIcon /> PARTE 1 · PORTO
         </p>
         <h2 id="porto-title" className="display-title solution-title is-wide" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
-          Sem destino, a sua marca só gasta energia. Primeiro, a gente define o porto
+          Descubra onde a sua marca está perdendo valor e para onde ela precisa ir
         </h2>
 
         <div className="feature-grid is-three">

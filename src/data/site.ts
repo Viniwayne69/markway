@@ -63,7 +63,7 @@ export const solutions = [
 
 export const portoCards = [
   { title: "Diagnóstico profundo", text: "Abrimos a sua marca, o seu mercado e o seu público para achar onde você perde valor e cliente." },
-  { title: "Time treinado", text: "Do dono ao atendimento, todos passam a enxergar e a defender a marca." },
+  { title: "Time treinado", text: "Treinamos o seu time, do dono ao atendimento, para enxergar e defender a marca." },
   { title: "Destino definido", text: "Fixamos por escrito onde a marca vai chegar, e tudo passa a ser medido contra isso." }
 ];
 export const portoResult = "uma marca que sabe exatamente para onde vai";

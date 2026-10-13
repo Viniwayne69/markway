@@ -10,7 +10,7 @@ export function RotaSection() {
           <CompassIcon /> PARTE 2 · ROTA
         </p>
         <h2 id="rota-title" className="display-title solution-title is-wide" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
-          Marca igual a todas disputa preço. Depois, a gente traça a rota que só a sua tem
+          Encontre o lugar que só a sua marca pode ocupar e saia da guerra de preço
         </h2>
 
         <ol className="steps-list">
