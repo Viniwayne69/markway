@@ -18,7 +18,7 @@ export function SolutionsSection() {
             Como transformamos a sua marca em uma das mais desejadas?
           </h2>
           <p className="solutions-sub" data-reveal style={{ "--d": "100ms" } as CSSProperties}>
-            Um serviço, três partes, em ordem
+            Método SPEARE: um serviço, três partes, em ordem
           </p>
         </div>
 
