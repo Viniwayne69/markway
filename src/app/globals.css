@@ -2249,7 +2249,9 @@ body.menu-open { overflow: hidden; }
 /* ---------- Serviço único: Porto, Rota, Travessia ---------- */
 @media (min-width: 1024px) { .feature-grid.is-three { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .solution-result {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
@@ -2257,12 +2259,12 @@ body.menu-open { overflow: hidden; }
   margin: 2rem auto 0;
   padding: 0.85rem 1.5rem;
   border-radius: 999px;
-  background: var(--gold);
-  color: var(--shadow);
+  border: 1.5px solid var(--gold);
+  background: rgba(201, 166, 90, 0.14);
+  color: inherit;
   font-size: 1rem;
   font-weight: 700;
   line-height: 1.3;
   text-align: center;
 }
 .solution-result strong { font-weight: 800; }
-.solution-result + .solution-btn { display: inline-flex; }
