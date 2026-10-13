@@ -47,7 +47,7 @@ export function SolutionsSection() {
         </div>
 
         <div className="solutions-foot" data-reveal>
-          <p>Não é um retoque: o Método SPEARE melhora e evolui a sua marca de ponta a ponta</p>
+          <p>Pegamos a sua empresa como ela já está, achamos o que está travando o crescimento e melhoramos a marca e a jornada do cliente de ponta a ponta, para ela vender mais, vender mais caro e vender de novo</p>
           <a className="btn" href={applyUrl} target="_blank" rel="noopener noreferrer">
             Iniciar aplicação
           </a>

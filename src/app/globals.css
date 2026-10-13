@@ -1808,6 +1808,17 @@ body.menu-open { overflow: hidden; }
   color: inherit;
   font-size: clamp(2.2rem, 4.4vw, 3.4rem);
 }
+.solution-lead {
+  max-width: 54ch;
+  margin: 1.1rem 0 0;
+  color: inherit;
+  opacity: 0.92;
+  font-size: clamp(1.02rem, 1.7vw, 1.22rem);
+  font-weight: 700;
+  line-height: 1.5;
+}
+.is-center .solution-lead { margin-inline: auto; }
+
 .is-center { text-align: center; }
 .is-center .solution-title { margin-inline: auto; max-width: 20ch; }
 

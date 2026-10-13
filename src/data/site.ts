@@ -21,7 +21,7 @@ export const faqItems = [
   },
   {
     q: "O que eu recebo em cada parte?",
-    a: "Porto: diagnóstico da marca, do mercado e do público, treinamento do time e o destino da marca definido. Rota: o posicionamento, os valores e a mensagem da marca, e o que ela deixa de fazer. Travessia: aplicação na identidade, nos conteúdos e no site, atendimento e vendas alinhados à marca e acompanhamento durante a execução."
+    a: "Porto: diagnóstico da marca, do mercado e do público, a jornada do seu cliente mapeada, treinamento do time e o destino da empresa definido. Rota: o posicionamento, os valores e a mensagem por escrito, mais a limpa no que faz a marca parecer igual às outras e nos processos que travam o crescimento. Travessia: aplicação na identidade, nos conteúdos e no site, anúncio, atendimento, loja e pós-venda alinhados à marca e acompanhamento durante 1 mês de execução."
   },
   {
     q: "Preciso já ter uma marca para começar?",
@@ -42,42 +42,42 @@ export const solutions = [
     key: "porto",
     title: "Porto",
     subtitle: "Para onde a marca quer ir?",
-    text: "Fazemos um diagnóstico profundo da sua marca, do seu mercado e do seu público, e definimos o destino que ela vai perseguir",
+    text: "Descobrimos o que está travando a sua empresa hoje e para onde ela precisa ir",
     tone: "cream"
   },
   {
     key: "rota",
     title: "Rota",
     subtitle: "Como chegar lá sendo diferente?",
-    text: "Reconstruímos o posicionamento, os valores e a mensagem, e cortamos tudo o que faz a sua marca parecer igual às outras",
+    text: "Definimos por escrito o posicionamento, os valores e a mensagem da sua marca",
     tone: "yellow"
   },
   {
     key: "travessia",
     title: "Travessia",
     subtitle: "Como isso vira realidade?",
-    text: "Colocamos a nova marca para rodar na identidade, nos conteúdos, no site, no atendimento e nas vendas, e acompanhamos cada passo da execução",
+    text: "Melhoramos a jornada do cliente, do anúncio ao pós-venda",
     tone: "red"
   }
 ];
 
 export const portoCards = [
-  { title: "Diagnóstico profundo", text: "Abrimos a sua marca, o seu mercado e o seu público para achar onde você perde valor e cliente." },
-  { title: "Time treinado", text: "Treinamos o seu time, do dono ao atendimento, para enxergar e defender a marca." },
-  { title: "Destino definido", text: "Fixamos por escrito onde a marca vai chegar, e tudo passa a ser medido contra isso." }
+  { title: "Diagnóstico profundo", text: "Abrimos a sua marca, o seu mercado e o seu público para achar o que está travando o crescimento." },
+  { title: "Time treinado", text: "Treinamos o seu time, do dono ao atendimento, para atrair e melhorar a experiência dos clientes com a marca." },
+  { title: "Jornada mapeada", text: "Mapeamos a jornada do seu cliente, achamos onde ela trava e definimos para onde a empresa vai." }
 ];
-export const portoResult = "uma marca que sabe exatamente para onde vai";
+export const portoResult = "mais gente certa chegando e menos cliente perdido no caminho";
 
 export const rotaSteps = [
-  ["Posicionamento", "Definimos o lugar que só a sua marca ocupa, longe da guerra de preço."],
-  ["Valores e mensagem", "Reconstruímos o que a marca defende e como ela fala, para atrair o cliente certo."],
-  ["O que deixar de fazer", "Cortamos tudo o que faz a sua marca parecer igual às outras."]
+  ["Posicionamento", "Definimos por escrito o lugar que só a sua marca ocupa."],
+  ["Valores e mensagem", "Fortalecemos o que a marca defende e como ela fala, para atrair quem paga mais."],
+  ["A limpa", "Cortamos tudo o que faz a sua marca parecer igual às outras e os processos que travam o crescimento."]
 ];
-export const rotaResult = "um caminho que ninguém disputa";
+export const rotaResult = "menos desconto para fechar e ticket maior em cada pedido";
 
 export const travessiaCards = [
   ["Identidade, conteúdos e site", "Aplicamos a marca renovada em tudo o que o cliente vê."],
-  ["Atendimento e vendas", "Alinhamos cada contato, do primeiro \"oi\" ao fechamento, ao que a marca promete."],
-  ["Acompanhamento", "Acompanhamos cada passo da execução para a marca sair do papel e virar prática."]
+  ["Anúncio, atendimento e pós-venda", "Alinhamos cada ponto da jornada, do anúncio ao pós-venda, ao que a marca promete."],
+  ["Acompanhamento", "Acompanhamos cada passo da execução durante 1 mês, para a marca sair do papel e virar prática."]
 ];
-export const travessiaResult = "marca em prática, e não só no papel";
+export const travessiaResult = "cliente que compra de novo e indica a sua marca";

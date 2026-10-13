@@ -10,8 +10,11 @@ export function RotaSection() {
           <CompassIcon /> PARTE 2 · ROTA
         </p>
         <h2 id="rota-title" className="display-title solution-title is-wide" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
-          Encontre o lugar que só a sua marca pode ocupar e saia da guerra de preço
+          Ocupe o lugar que só a sua marca pode ocupar e saia da comparação por preço
         </h2>
+        <p className="solution-lead" data-reveal style={{ "--d": "120ms" } as CSSProperties}>
+          Definimos o posicionamento, os valores, a mensagem e o cliente certo da sua marca, tiramos dela tudo o que faz parecer igual às outras e fazemos uma limpa nos processos que estavam travando o crescimento
+        </p>
 
         <ol className="steps-list">
           {rotaSteps.map(([title, text], index) => (

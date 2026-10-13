@@ -12,8 +12,11 @@ export function PortoSection() {
           <CompassIcon /> PARTE 1 · PORTO
         </p>
         <h2 id="porto-title" className="display-title solution-title is-wide" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
-          Descubra onde a sua marca está perdendo valor e para onde ela precisa ir
+          Descubra o que está travando a sua empresa e para onde ela precisa ir
         </h2>
+        <p className="solution-lead" data-reveal style={{ "--d": "120ms" } as CSSProperties}>
+          Fazemos um diagnóstico profundo da sua marca, do mercado e do público, mapeamos a jornada do seu cliente, treinamos o seu time e definimos para onde a empresa vai
+        </p>
 
         <div className="feature-grid is-three">
           {portoCards.map((card, index) => {
