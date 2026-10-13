@@ -1,8 +1,8 @@
 import type { CSSProperties } from "react";
 import { applyUrl, portoCards, portoResult } from "@/data/site";
-import { CompassIcon, CapIcon, GemIcon, TargetIcon } from "@/components/Icons";
+import { CompassIcon, ChatIcon, GemIcon, TargetIcon } from "@/components/Icons";
 
-const icons = [TargetIcon, CapIcon, GemIcon];
+const icons = [TargetIcon, ChatIcon, GemIcon];
 
 export function PortoSection() {
   return (
@@ -15,7 +15,7 @@ export function PortoSection() {
           Descubra o que está travando a sua empresa e para onde ela precisa ir
         </h2>
         <p className="solution-lead" data-reveal style={{ "--d": "120ms" } as CSSProperties}>
-          Fazemos um diagnóstico profundo da sua marca, do mercado e do público, mapeamos a jornada do seu cliente, treinamos o seu time e definimos para onde a empresa vai
+          Fazemos um diagnóstico profundo da sua marca, do mercado e do público, mapeamos a jornada do seu cliente, escutamos o seu time e definimos para onde a empresa vai
         </p>
 
         <div className="feature-grid is-three">

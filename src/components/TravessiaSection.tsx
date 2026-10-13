@@ -1,8 +1,8 @@
 import type { CSSProperties } from "react";
 import { applyUrl, travessiaCards, travessiaResult } from "@/data/site";
-import { ChatIcon, ChecklistIcon, PaletteIcon, ShipIcon } from "@/components/Icons";
+import { CapIcon, ChecklistIcon, PaletteIcon, ShipIcon } from "@/components/Icons";
 
-const icons = [PaletteIcon, ChatIcon, ChecklistIcon];
+const icons = [PaletteIcon, CapIcon, ChecklistIcon];
 
 export function TravessiaSection() {
   return (
@@ -15,7 +15,7 @@ export function TravessiaSection() {
           Coloque a marca para funcionar na jornada inteira, do anúncio ao pós-venda
         </h2>
         <p className="solution-lead" data-reveal style={{ "--d": "120ms" } as CSSProperties}>
-          Colocamos a marca para rodar na identidade, no site e nos conteúdos, alinhamos anúncio, atendimento, loja e pós-venda e acompanhamos a execução durante um mês
+          Colocamos a marca para rodar na identidade, no site e nos conteúdos, treinamos o seu time, alinhamos anúncio, atendimento, loja e pós-venda e acompanhamos a execução durante um mês
         </p>
 
         <div className="feature-grid is-three">
