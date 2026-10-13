@@ -21,7 +21,7 @@ export const faqItems = [
   },
   {
     q: "O que eu recebo em cada parte?",
-    a: "Porto: diagnóstico da marca, do mercado e do público, a jornada do seu cliente mapeada, a escuta do seu time e o destino da empresa definido. Rota: o posicionamento, os valores e a mensagem por escrito, mais a limpa no que faz a marca parecer igual às outras e nos processos que travam o crescimento. Travessia: aplicação na identidade, nos conteúdos e no site, treinamento do time, anúncio, atendimento, loja e pós-venda alinhados à marca e acompanhamento semanal da execução, com dados, ajustes e processos documentados."
+    a: "Porto: Diagnóstico Profundo, Raio-X do Faturamento e Mapa da Jornada. Rota: Posicionamento de Marca, Proposta de Valor e Foco Estratégico. Travessia: Marca Aplicada, Time Treinado e Acompanhamento Semanal, com ajustes toda semana."
   },
   {
     q: "Preciso já ter uma marca para começar?",
@@ -42,21 +42,21 @@ export const solutions = [
     key: "porto",
     title: "Porto",
     subtitle: "Para onde a marca quer ir?",
-    text: "O diagnóstico do seu negócio e da sua marca, com os gargalos mapeados e a jornada do seu cliente desenhada",
+    text: "Diagnóstico Profundo, Raio-X do Faturamento e Mapa da Jornada: o retrato completo de onde a empresa está perdendo dinheiro",
     tone: "cream"
   },
   {
     key: "rota",
     title: "Rota",
     subtitle: "Como chegar lá sendo diferente?",
-    text: "A marca da sua empresa definida de ponta a ponta, e a limpa no que faz ela parecer igual às outras",
+    text: "Posicionamento de Marca, Proposta de Valor e Foco Estratégico: a marca definida e o argumento que sustenta o seu preço",
     tone: "yellow"
   },
   {
     key: "travessia",
     title: "Travessia",
     subtitle: "Como isso vira realidade?",
-    text: "A marca em operação na identidade, no site, no time e na jornada, com acompanhamento semanal",
+    text: "Marca Aplicada, Time Treinado e Acompanhamento Semanal: a marca rodando na empresa inteira, com ajuste toda semana",
     tone: "red"
   }
 ];
