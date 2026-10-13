@@ -17,6 +17,9 @@ export function SolutionsSection() {
           <h2 id="solutions-title" className="display-title solutions-title" data-reveal>
             Como transformamos a sua marca em uma das mais desejadas?
           </h2>
+          <p className="solutions-sub" data-reveal style={{ "--d": "100ms" } as CSSProperties}>
+            Método SPEARE
+          </p>
         </div>
 
         <div className="solutions-wrap">
