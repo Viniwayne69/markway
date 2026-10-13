@@ -1,8 +1,8 @@
 import type { CSSProperties } from "react";
 import { applyUrl, portoCards, portoResult } from "@/data/site";
-import { CompassIcon, ChatIcon, GemIcon, TargetIcon } from "@/components/Icons";
+import { CompassIcon, ChecklistIcon, GemIcon, TargetIcon } from "@/components/Icons";
 
-const icons = [TargetIcon, ChatIcon, GemIcon];
+const icons = [TargetIcon, ChecklistIcon, GemIcon];
 
 export function PortoSection() {
   return (
