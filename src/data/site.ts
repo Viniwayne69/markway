@@ -21,7 +21,7 @@ export const faqItems = [
   },
   {
     q: "O que eu recebo em cada parte?",
-    a: "Porto: diagnóstico da marca, do mercado e do público, a jornada do seu cliente mapeada, a escuta do seu time e o destino da empresa definido. Rota: o posicionamento, os valores e a mensagem por escrito, mais a limpa no que faz a marca parecer igual às outras e nos processos que travam o crescimento. Travessia: aplicação na identidade, nos conteúdos e no site, treinamento do time, anúncio, atendimento, loja e pós-venda alinhados à marca e acompanhamento durante 1 mês de execução."
+    a: "Porto: diagnóstico da marca, do mercado e do público, a jornada do seu cliente mapeada, a escuta do seu time e o destino da empresa definido. Rota: o posicionamento, os valores e a mensagem por escrito, mais a limpa no que faz a marca parecer igual às outras e nos processos que travam o crescimento. Travessia: aplicação na identidade, nos conteúdos e no site, treinamento do time, anúncio, atendimento, loja e pós-venda alinhados à marca e acompanhamento semanal da execução, com dados, ajustes e processos documentados."
   },
   {
     q: "Preciso já ter uma marca para começar?",
@@ -78,6 +78,6 @@ export const rotaResult = "menos desconto para fechar e ticket maior em cada ped
 export const travessiaCards = [
   ["Identidade, conteúdos e site", "Aplicamos a marca renovada em tudo o que o cliente vê."],
   ["Time treinado e jornada alinhada", "Treinamos o seu time e alinhamos cada ponto, do anúncio ao pós-venda, ao que a marca promete."],
-  ["Acompanhamento", "Acompanhamos cada passo da execução durante 1 mês, para a marca sair do papel e virar prática."]
+  ["Acompanhamento semanal", "Acompanhamos a execução toda semana, com dados na mesa, ajustes e processos documentados."]
 ];
 export const travessiaResult = "cliente que compra de novo e indica a sua marca";
