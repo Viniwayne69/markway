@@ -47,7 +47,7 @@ export function SolutionsSection() {
         </div>
 
         <div className="solutions-foot" data-reveal>
-          <p>Marcas desejadas começam por um destino claro.</p>
+          <p>Não é um retoque: o Método SPEARE muda a sua marca de ponta a ponta</p>
           <a className="btn" href={applyUrl} target="_blank" rel="noopener noreferrer">
             Iniciar aplicação
           </a>

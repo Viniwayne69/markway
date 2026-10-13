@@ -42,21 +42,21 @@ export const solutions = [
     key: "porto",
     title: "Porto",
     subtitle: "Para onde a marca quer ir?",
-    text: "Definimos o destino da sua marca",
+    text: "Fazemos um diagnóstico profundo da sua marca, do seu mercado e do seu público, e definimos o destino que ela vai perseguir",
     tone: "cream"
   },
   {
     key: "rota",
     title: "Rota",
     subtitle: "Como chegar lá sendo diferente?",
-    text: "Traçamos o caminho que só a sua marca tem",
+    text: "Reconstruímos o posicionamento, os valores e a mensagem, e cortamos tudo o que faz a sua marca parecer igual às outras",
     tone: "yellow"
   },
   {
     key: "travessia",
     title: "Travessia",
     subtitle: "Como isso vira realidade?",
-    text: "Colocamos a sua marca em prática",
+    text: "Colocamos a nova marca para rodar na identidade, nos conteúdos, no site, no atendimento e nas vendas, e acompanhamos cada passo da execução",
     tone: "red"
   }
 ];
