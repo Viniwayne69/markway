@@ -29,7 +29,7 @@ export const faqItems = [
   },
   {
     q: "A SPEARE serve para o meu tipo de negócio?",
-    a: "O serviço foi pensado para negócios que querem aumentar o valor percebido e atrair clientes mais alinhados. Na aplicação você conta o seu contexto e analisamos o encaixe."
+    a: "O Método SPEARE foi pensado para negócios que querem aumentar o valor percebido e atrair clientes mais alinhados. Na aplicação você conta o seu contexto e analisamos o encaixe."
   },
   {
     q: "Posso contratar só uma parte?",
