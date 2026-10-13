@@ -15,7 +15,7 @@ export function TravessiaSection() {
           Coloque a marca para funcionar na jornada inteira, do anúncio ao pós-venda
         </h2>
         <p className="solution-lead" data-reveal style={{ "--d": "120ms" } as CSSProperties}>
-          Colocamos a marca para rodar na identidade, no site e nos conteúdos, treinamos o seu time, alinhamos anúncio, atendimento, loja e pós-venda e acompanhamos tudo toda semana, com números na mesa
+          Para o cliente viver exatamente o que a comunicação promete, e a marca virar rotina da empresa
         </p>
 
         <div className="feature-grid is-three">

@@ -15,7 +15,7 @@ export function PortoSection() {
           Descubra o que está travando a sua empresa e para onde ela precisa ir
         </h2>
         <p className="solution-lead" data-reveal style={{ "--d": "120ms" } as CSSProperties}>
-          Fazemos um diagnóstico profundo da sua marca, do mercado e do público, mapeamos a jornada do seu cliente, escutamos o seu time e definimos para onde a empresa vai
+          Para enxergar onde a empresa está perdendo cliente hoje e para onde ela precisa ir
         </p>
 
         <div className="feature-grid is-three">

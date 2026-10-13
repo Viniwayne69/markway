@@ -42,42 +42,41 @@ export const solutions = [
     key: "porto",
     title: "Porto",
     subtitle: "Para onde a marca quer ir?",
-    text: "Descobrimos o que está travando a sua empresa hoje e para onde ela precisa ir",
+    text: "O diagnóstico do seu negócio e da sua marca, com os gargalos mapeados e a jornada do seu cliente desenhada",
     tone: "cream"
   },
   {
     key: "rota",
     title: "Rota",
     subtitle: "Como chegar lá sendo diferente?",
-    text: "Definimos por escrito o posicionamento, os valores e a mensagem da sua marca",
+    text: "A marca da sua empresa definida de ponta a ponta, e a limpa no que faz ela parecer igual às outras",
     tone: "yellow"
   },
   {
     key: "travessia",
     title: "Travessia",
     subtitle: "Como isso vira realidade?",
-    text: "Melhoramos a jornada do cliente, do anúncio ao pós-venda",
+    text: "A marca em operação na identidade, no site, no time e na jornada, com acompanhamento semanal",
     tone: "red"
   }
 ];
 
 export const portoCards = [
-  { title: "Diagnóstico profundo", text: "Abrimos a sua marca, o seu mercado e o seu público para achar o que está travando o crescimento." },
-  { title: "Time escutado", text: "Escutamos o seu time, do dono ao atendimento, porque é ele quem sabe onde a jornada trava." },
-  { title: "Jornada mapeada", text: "Mapeamos a jornada do seu cliente, achamos onde ela trava e definimos para onde a empresa vai." }
+  { title: "Diagnóstico profundo", text: "Você recebe uma análise completa do seu negócio e da sua marca, com os gargalos e as oportunidades mapeados, para crescer sem desperdiçar dinheiro." },
+  { title: "Time escutado", text: "Você recebe o que o seu time tem a dizer transformado em informação útil, porque é quem atende que sabe onde a jornada trava." },
+  { title: "Jornada mapeada", text: "Você recebe o caminho do seu cliente desenhado do primeiro contato ao pós-venda, com o ponto exato onde ele desiste, para parar de perder venda no meio do percurso." }
 ];
 export const portoResult = "mais gente certa chegando e menos cliente perdido no caminho";
 
 export const rotaSteps = [
-  ["Posicionamento", "Definimos por escrito o lugar que só a sua marca ocupa."],
-  ["Valores e mensagem", "Fortalecemos o que a marca defende e como ela fala, para atrair quem paga mais."],
-  ["A limpa", "Cortamos tudo o que faz a sua marca parecer igual às outras e os processos que travam o crescimento."]
+  ["Posicionamento de marca", "Com os gargalos na mesa, entregamos a marca da sua empresa definida de ponta a ponta, posicionamento, valores, mensagem e cliente certo, transformando-a numa das mais desejadas da sua geração."],
+  ["A limpa", "Com a marca definida, cortamos tudo o que faz ela parecer igual às outras e os processos que travavam o crescimento, que fazem a empresa perder cliente e margem todo mês."]
 ];
 export const rotaResult = "menos desconto para fechar e ticket maior em cada pedido";
 
 export const travessiaCards = [
-  ["Identidade, conteúdos e site", "Aplicamos a marca renovada em tudo o que o cliente vê."],
-  ["Time treinado e jornada alinhada", "Treinamos o seu time e alinhamos cada ponto, do anúncio ao pós-venda, ao que a marca promete."],
-  ["Acompanhamento semanal", "Acompanhamos a execução toda semana, com dados na mesa, ajustes e processos documentados."]
+  ["Marca em operação", "Com o caminho livre, aplicamos a marca na identidade, no site e nos conteúdos, para o cliente reconhecer a sua empresa em tudo o que ela mostra."],
+  ["Time treinado e jornada alinhada", "Treinamos o seu time e alinhamos cada ponto da jornada, do anúncio ao pós-venda, para o cliente viver exatamente o que a comunicação promete."],
+  ["Acompanhamento semanal", "Acompanhamento semanal com ajustes para garantir o resultado: coleta de dados, análise, correções, registro do que funcionou e processos documentados."]
 ];
 export const travessiaResult = "cliente que compra de novo e indica a sua marca";

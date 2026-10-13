@@ -13,7 +13,7 @@ export function RotaSection() {
           Ocupe o lugar que só a sua marca pode ocupar e saia da comparação por preço
         </h2>
         <p className="solution-lead" data-reveal style={{ "--d": "120ms" } as CSSProperties}>
-          Definimos o posicionamento, os valores, a mensagem e o cliente certo da sua marca, tiramos dela tudo o que faz parecer igual às outras e fazemos uma limpa nos processos que estavam travando o crescimento
+          Para a sua marca ser escolhida pelo que é, e não pelo preço
         </p>
 
         <ol className="steps-list">
