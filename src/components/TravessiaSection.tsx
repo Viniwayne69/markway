@@ -11,8 +11,8 @@ export function TravessiaSection() {
         <p className="solution-label" data-reveal>
           <ShipIcon /> PARTE 3 · TRAVESSIA
         </p>
-        <h2 id="travessia-title" className="display-title solution-title" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
-          Então, a travessia: como isso vira realidade?
+        <h2 id="travessia-title" className="display-title solution-title is-wide" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
+          Estratégia no papel não vende. Então, a gente faz a travessia até a prática
         </h2>
 
         <div className="feature-grid is-three">

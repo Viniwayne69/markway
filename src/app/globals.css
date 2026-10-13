@@ -2268,3 +2268,4 @@ body.menu-open { overflow: hidden; }
   text-align: center;
 }
 .solution-result strong { font-weight: 800; }
+.is-center .solution-title.is-wide { max-width: 27ch; }

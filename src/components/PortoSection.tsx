@@ -11,8 +11,8 @@ export function PortoSection() {
         <p className="solution-label" data-reveal>
           <CompassIcon /> PARTE 1 · PORTO
         </p>
-        <h2 id="porto-title" className="display-title solution-title" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
-          Primeiro, o porto: para onde a sua marca quer ir?
+        <h2 id="porto-title" className="display-title solution-title is-wide" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
+          Sem destino, a sua marca só gasta energia. Primeiro, a gente define o porto
         </h2>
 
         <div className="feature-grid is-three">

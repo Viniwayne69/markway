@@ -9,8 +9,8 @@ export function RotaSection() {
         <p className="solution-label" data-reveal>
           <CompassIcon /> PARTE 2 · ROTA
         </p>
-        <h2 id="rota-title" className="display-title solution-title" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
-          Depois, a rota: como chegar lá sendo diferente?
+        <h2 id="rota-title" className="display-title solution-title is-wide" data-reveal style={{ "--d": "80ms" } as CSSProperties}>
+          Marca igual a todas disputa preço. Depois, a gente traça a rota que só a sua tem
         </h2>
 
         <ol className="steps-list">

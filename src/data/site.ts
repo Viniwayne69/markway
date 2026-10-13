@@ -62,22 +62,22 @@ export const solutions = [
 ];
 
 export const portoCards = [
-  { title: "Diagnóstico", text: "Lemos a sua marca, o mercado e o público para entender onde você está." },
-  { title: "Treinamento", text: "O seu time aprende a enxergar a marca e a falar a mesma língua." },
-  { title: "Destino definido", text: "Deixamos claro onde a marca quer estar." }
+  { title: "Diagnóstico profundo", text: "Abrimos a sua marca, o seu mercado e o seu público para achar onde você perde valor e cliente." },
+  { title: "Time treinado", text: "Do dono ao atendimento, todos passam a enxergar e a defender a marca." },
+  { title: "Destino definido", text: "Fixamos por escrito onde a marca vai chegar, e tudo passa a ser medido contra isso." }
 ];
-export const portoResult = "Clareza de destino";
+export const portoResult = "uma marca que sabe exatamente para onde vai";
 
 export const rotaSteps = [
-  ["Posicionamento", "O lugar que só a sua marca ocupa."],
-  ["Valores e mensagem", "O que a marca defende e como ela fala."],
-  ["O que deixar de fazer", "O que a marca abandona para não se parecer com todo mundo."]
+  ["Posicionamento", "Definimos o lugar que só a sua marca ocupa, longe da guerra de preço."],
+  ["Valores e mensagem", "Reconstruímos o que a marca defende e como ela fala, para atrair o cliente certo."],
+  ["O que deixar de fazer", "Cortamos tudo o que faz a sua marca parecer igual às outras."]
 ];
-export const rotaResult = "Um caminho que ninguém disputa";
+export const rotaResult = "um caminho que ninguém disputa";
 
 export const travessiaCards = [
-  ["Identidade, conteúdos e site", "A marca aplicada onde o cliente a vê."],
-  ["Atendimento e vendas", "Cada contato alinhado à marca, do primeiro \"oi\" ao fechamento."],
-  ["Acompanhamento", "Estamos junto durante a execução, para a marca sair do papel."]
+  ["Identidade, conteúdos e site", "Aplicamos a marca renovada em tudo o que o cliente vê."],
+  ["Atendimento e vendas", "Alinhamos cada contato, do primeiro \"oi\" ao fechamento, ao que a marca promete."],
+  ["Acompanhamento", "Acompanhamos cada passo da execução para a marca sair do papel e virar prática."]
 ];
-export const travessiaResult = "Marca em prática, e não só no papel";
+export const travessiaResult = "marca em prática, e não só no papel";
