@@ -42,21 +42,21 @@ export const solutions = [
     key: "porto",
     title: "Porto",
     subtitle: "Para onde a marca quer ir?",
-    text: "Defina o destino.",
+    text: "Definimos o destino da sua marca",
     tone: "cream"
   },
   {
     key: "rota",
     title: "Rota",
     subtitle: "Como chegar lá sendo diferente?",
-    text: "Trace o caminho que só você tem.",
+    text: "Traçamos o caminho que só a sua marca tem",
     tone: "yellow"
   },
   {
     key: "travessia",
     title: "Travessia",
     subtitle: "Como isso vira realidade?",
-    text: "Coloque a marca em prática.",
+    text: "Colocamos a sua marca em prática",
     tone: "red"
   }
 ];
